@@ -1,0 +1,2647 @@
+fileFormatVersion: 2
+guid: 3e23d8af8a66ca34c91ff5afb8e2b047
+timeCreated: 1525483858
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: badgesCHESTall
+    100002: badgesCHESTofficer
+    100004: badgesHATofficer
+    100006: badgesHATofficerInsignia
+    100008: BeltAmmo
+    100010: BeltBuckleA
+    100012: BeltBuckleB
+    100014: Bip01
+    100016: Bip01_Head
+    100018: Bip01_L_Calf
+    100020: Bip01_L_Clavicle
+    100022: Bip01_L_Finger0
+    100024: Bip01_L_Finger01
+    100026: Bip01_L_Finger1
+    100028: Bip01_L_Finger11
+    100030: Bip01_L_Finger12
+    100032: Bip01_L_Finger2
+    100034: Bip01_L_Finger21
+    100036: Bip01_L_Finger22
+    100038: Bip01_L_Foot
+    100040: Bip01_L_Forearm
+    100042: Bip01_L_Hand
+    100044: Bip01_L_Thigh
+    100046: Bip01_L_UpperArm
+    100048: Bip01_Neck
+    100050: Bip01_Pelvis
+    100052: Bip01_R_Calf
+    100054: Bip01_R_Clavicle
+    100056: Bip01_R_Finger0
+    100058: Bip01_R_Finger01
+    100060: Bip01_R_Finger1
+    100062: Bip01_R_Finger11
+    100064: Bip01_R_Finger12
+    100066: Bip01_R_Finger2
+    100068: Bip01_R_Finger21
+    100070: Bip01_R_Finger22
+    100072: Bip01_R_Foot
+    100074: Bip01_R_Forearm
+    100076: Bip01_R_Hand
+    100078: Bip01_R_Thigh
+    100080: Bip01_R_UpperArm
+    100082: Bip01_Spine
+    100084: Bip01_Spine1
+    100086: Bip01_Spine2
+    100088: Chain
+    100090: GermanFieldPoliceNeckPlace
+    100092: GermanFieldPoliceOfficer
+    100094: GHands
+    100096: hairBASE
+    100098: hatOFFICER
+    100100: hatOFFICERb
+    100102: hatSOLDIER
+    100104: Head
+    100106: Holster
+    100108: legsOFFICER
+    100110: legsSOLDIERa
+    100112: MapRoot
+    100114: MP40GermanmachineGun
+    100116: PassBook
+    100118: Pistol
+    100120: //RootNode
+    100122: StopSign
+    100124: SuppliesBag
+    400000: badgesCHESTall
+    400002: badgesCHESTofficer
+    400004: badgesHATofficer
+    400006: badgesHATofficerInsignia
+    400008: BeltAmmo
+    400010: BeltBuckleA
+    400012: BeltBuckleB
+    400014: Bip01
+    400016: Bip01_Head
+    400018: Bip01_L_Calf
+    400020: Bip01_L_Clavicle
+    400022: Bip01_L_Finger0
+    400024: Bip01_L_Finger01
+    400026: Bip01_L_Finger1
+    400028: Bip01_L_Finger11
+    400030: Bip01_L_Finger12
+    400032: Bip01_L_Finger2
+    400034: Bip01_L_Finger21
+    400036: Bip01_L_Finger22
+    400038: Bip01_L_Foot
+    400040: Bip01_L_Forearm
+    400042: Bip01_L_Hand
+    400044: Bip01_L_Thigh
+    400046: Bip01_L_UpperArm
+    400048: Bip01_Neck
+    400050: Bip01_Pelvis
+    400052: Bip01_R_Calf
+    400054: Bip01_R_Clavicle
+    400056: Bip01_R_Finger0
+    400058: Bip01_R_Finger01
+    400060: Bip01_R_Finger1
+    400062: Bip01_R_Finger11
+    400064: Bip01_R_Finger12
+    400066: Bip01_R_Finger2
+    400068: Bip01_R_Finger21
+    400070: Bip01_R_Finger22
+    400072: Bip01_R_Foot
+    400074: Bip01_R_Forearm
+    400076: Bip01_R_Hand
+    400078: Bip01_R_Thigh
+    400080: Bip01_R_UpperArm
+    400082: Bip01_Spine
+    400084: Bip01_Spine1
+    400086: Bip01_Spine2
+    400088: Chain
+    400090: GermanFieldPoliceNeckPlace
+    400092: GermanFieldPoliceOfficer
+    400094: GHands
+    400096: hairBASE
+    400098: hatOFFICER
+    400100: hatOFFICERb
+    400102: hatSOLDIER
+    400104: Head
+    400106: Holster
+    400108: legsOFFICER
+    400110: legsSOLDIERa
+    400112: MapRoot
+    400114: MP40GermanmachineGun
+    400116: PassBook
+    400118: Pistol
+    400120: //RootNode
+    400122: StopSign
+    400124: SuppliesBag
+    4300000: badgesCHESTall
+    4300002: badgesCHESTofficer
+    4300004: badgesHATofficer
+    4300006: badgesHATofficerInsignia
+    4300008: BeltAmmo
+    4300010: BeltBuckleA
+    4300012: BeltBuckleB
+    4300014: Chain
+    4300016: GermanFieldPoliceNeckPlace
+    4300018: GermanFieldPoliceOfficer
+    4300020: GHands
+    4300022: hairBASE
+    4300024: hatOFFICER
+    4300026: hatOFFICERb
+    4300028: hatSOLDIER
+    4300030: Head
+    4300032: Holster
+    4300034: legsOFFICER
+    4300036: legsSOLDIERa
+    4300038: MP40GermanmachineGun
+    4300040: PassBook
+    4300042: Pistol
+    4300044: StopSign
+    4300046: SuppliesBag
+    7400000: TPose
+    7400002: NiceIdle
+    7400004: PistolCombatReady
+    7400006: pistolOneHandShooting
+    7400008: pistolPuttingGunBack
+    7400010: pistolTakingGunOut
+    7400012: pistolFromStandToSquatB
+    7400014: pistolSquatPointingPistol
+    7400016: pistolTwoHandsShootingSquat
+    7400018: pistolTwoHandsSquatReload
+    7400020: pistolFromSquatToCombatB
+    7400022: pistolStandTwoHandsPointingGun
+    7400024: pistolStandReloadGun
+    7400026: pistolStandTwoHandsShooting
+    7400028: pistolFromStandToSquatA
+    7400030: pistolSquatOneHandLookingAround
+    7400032: pistolSquatOneHandReload
+    7400034: pistolFromSquatToProne
+    7400036: pistolProneTwoHandShoot
+    7400038: pistolProneToSquat
+    7400040: pistolSquatOneHandReload1
+    7400042: pistolSquatToStand
+    7400044: pistolStandToProne
+    7400046: pistolProneToStand
+    7400048: mp40mp40CombatIdle
+    7400050: mp40GunButtAttack
+    7400052: mp40StandGunPointing
+    7400054: mp40StandFireGun
+    7400056: mp40mp40StandReloadGun
+    7400058: mp40ProneFire
+    7400060: mp40ProneDeath
+    7400062: mp40FromLyingToStanding
+    7400064: mp40FromStandingToSquat
+    7400066: mp40FromSquatToLying
+    7400068: mp40FromLyingToSquat
+    7400070: mp40LookingAroundSquat
+    7400072: mp40SquatCombatReady
+    7400074: mp40MP40SqatFire
+    7400076: mp40SquatReload
+    7400078: mp40FromSquatToStanding
+    7400080: mp40StraifeLeft
+    7400082: mp40StraifeRight
+    7400084: mp40WalkWithGun
+    7400086: Dissapointed
+    7400088: Explanation
+    7400090: PointingA
+    7400092: Stretching
+    7400094: UseObject
+    7400096: SitDown
+    7400098: StandFromSitting
+    7400100: GoToSleepPOSE
+    7400102: Sleeping
+    7400104: WakingUp
+    7400106: ClimbLadder
+    7400108: ClimbRope
+    7400110: ClimbWall
+    7400112: DyingA
+    7400114: DyingB
+    7400116: JumpStanding
+    7400118: JumpRunning
+    7400120: Sneaking
+    7400122: Walk
+    7400124: Swimming
+    7400126: HitFromBack
+    7400128: HitFromFront
+    7400130: HitFromLeft
+    7400132: HitFromRight
+    7400134: Drinking
+    7400136: MovingLeft
+    7400138: MovingRight
+    7400140: SayNo
+    7400142: Thinking
+    7400144: NotSure
+    7400146: Warning
+    7400148: StopSign
+    7400150: ReadPassBook
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: badgesCHESTall
+    13700002: badgesCHESTofficer
+    13700004: badgesHATofficer
+    13700006: badgesHATofficerInsignia
+    13700008: BeltAmmo
+    13700010: BeltBuckleA
+    13700012: BeltBuckleB
+    13700014: Chain
+    13700016: GermanFieldPoliceNeckPlace
+    13700018: GermanFieldPoliceOfficer
+    13700020: GHands
+    13700022: hairBASE
+    13700024: hatOFFICER
+    13700026: hatOFFICERb
+    13700028: hatSOLDIER
+    13700030: Head
+    13700032: Holster
+    13700034: legsOFFICER
+    13700036: legsSOLDIERa
+    13700038: MP40GermanmachineGun
+    13700040: PassBook
+    13700042: Pistol
+    13700044: StopSign
+    13700046: SuppliesBag
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BeltAmmo
+    second: {fileID: 2100000, guid: 7d08ca204e6787848ac94c7cc40cae39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BeltBuckleA
+    second: {fileID: 2100000, guid: 1835c0f404efc70498028b98cfa05265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BeltBuckleB
+    second: {fileID: 2100000, guid: b163d34d3b697ca41a54941be9d7ca82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chain
+    second: {fileID: 2100000, guid: 74b8350e346dd894987c7aea1dbb2e2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GHands
+    second: {fileID: 2100000, guid: 553f5786ea15b134c990dad5af6597ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GermanFieldPoliceNeckPlace
+    second: {fileID: 2100000, guid: da233d4f329d2fb4f8828df3daafb462, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GermanFieldPoliceOfficer
+    second: {fileID: 2100000, guid: f204d690fba51a64ab0e54be752d9ca2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GermanFieldPoliceOfficerLegs
+    second: {fileID: 2100000, guid: 42af4b2825ad04c499ebbfffd69d402c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head
+    second: {fileID: 2100000, guid: fb3b9a3351eb6ab429d24a99c8bf7222, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Holster
+    second: {fileID: 2100000, guid: c80fe8bf8f2547c4c970e71d64d4f3f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MP40GermanmachineGun
+    second: {fileID: 2100000, guid: 033be0eb272ba5d42ba33c9bb6261652, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PassBook
+    second: {fileID: 2100000, guid: 75b30a069ebb52b4182c66e735bd0f2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pistol
+    second: {fileID: 2100000, guid: 6634e5676176d4e459d34917bb4251a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StopSign
+    second: {fileID: 2100000, guid: 2ed7ca6d259dd694fa17c46ddd33bc5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SuppliesBag
+    second: {fileID: 2100000, guid: ab9ee56f47feb414dac7696868d8259c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: badgesCHESTall
+    second: {fileID: 2100000, guid: d40c9655fa3e6854abbb4516995b015a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: badgesCHESTofficer
+    second: {fileID: 2100000, guid: f709b8a11fc48fd489783138afc3c332, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: badgesHATofficer
+    second: {fileID: 2100000, guid: 4f3ae1776c660264daaaa1b2f63050b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: badgesHATofficerInsignia
+    second: {fileID: 2100000, guid: e31cb879d755d7b4f99462bed938801e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hairBASE
+    second: {fileID: 2100000, guid: f9e02fd5d8838314b9e7792ab25c5832, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hatOFFICER
+    second: {fileID: 2100000, guid: 562c261489d184d43bc5b32a876fb341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hatOFFICERb
+    second: {fileID: 2100000, guid: 326f81d26479b2248b847a6580e56159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hatSOLDIER
+    second: {fileID: 2100000, guid: 7fc0b517352f80f45b11d3f7194d4ce8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: legsSOLDIERa
+    second: {fileID: 2100000, guid: 32993779e73e7cc4f959494fb2bd50a6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'NiceIdle' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bip01_R_UpperArm' has scale animation that
+      will be discarded.\n\nClip 'PistolCombatReady' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine1' has scale animation that
+      will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger22' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger12' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger2' has scale animation that
+      will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will be discarded.\n\t'Bip01_R_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'pistolOneHandShooting' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine1' has scale animation that
+      will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation that
+      will be discarded.\n\t'Bip01_L_Finger0' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger12' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger22' has scale animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has translation animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has scale animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will
+      be discarded.\n\nClip 'pistolPuttingGunBack' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine1' has scale animation that
+      will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will be discarded.\n\t'Bip01_R_Forearm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger0' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger01' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger12' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger22' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'pistolTakingGunOut' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Spine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger2' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger12' has scale animation that will be discarded.\n\t'Bip01_R_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\nClip 'pistolFromStandToSquatB' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Bip01' has scale animation
+      that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Pelvis' has scale animation
+      that will be discarded.\n\t'Bip01_Spine' has translation animation that will
+      be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_Spine1' has scale animation that
+      will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger22' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation that
+      will be discarded.\n\t'Bip01_R_Finger12' has scale animation that will be discarded.\n\t'Bip01_R_Finger21'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger22' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Calf' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Calf' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'pistolSquatPointingPistol'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has translation animation that will be discarded.\n\t'Bip01_Spine' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine1'
+      has scale animation that will be discarded.\n\t'Bip01_Neck' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger22' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation that
+      will be discarded.\n\t'Bip01_R_Finger11' has scale animation that will be discarded.\n\t'Bip01_R_Finger12'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger2' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger22' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'pistolTwoHandsShootingSquat'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Spine' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine2'
+      has scale animation that will be discarded.\n\t'Bip01_Neck' has scale animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger22' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger12' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger2' has scale animation that
+      will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will be discarded.\n\t'Bip01_R_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Calf' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'pistolTwoHandsSquatReload' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine1' has scale
+      animation that will be discarded.\n\t'Bip01_Neck' has scale animation that will
+      be discarded.\n\t'Bip01_L_Clavicle' has translation animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger2' has scale animation that will be discarded.\n\t'Bip01_L_Finger21'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger22' has scale
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will be discarded.\n\t'Bip01_R_Forearm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger0' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger1' has scale animation that will be discarded.\n\t'Bip01_R_Finger11'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger12' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger2' has scale animation that
+      will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will be discarded.\n\t'Bip01_R_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Calf' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'pistolFromSquatToCombatB' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has translation animation that will be discarded.\n\t'Bip01_Spine' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine2'
+      has scale animation that will be discarded.\n\t'Bip01_Neck' has scale animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger2' has scale animation that will be discarded.\n\t'Bip01_L_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be discarded.\n\t'Bip01_R_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger01' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger1' has scale animation that will be discarded.\n\t'Bip01_R_Finger11'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger12' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger21' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger22' has scale animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has translation animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has scale animation that will be discarded.\n\t'Bip01_L_Calf' has scale animation
+      that will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Calf' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'pistolStandTwoHandsPointingGun' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Bip01_Spine' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_Spine' has scale animation that
+      will be discarded.\n\t'Bip01_Spine1' has scale animation that will be discarded.\n\t'Bip01_Spine2'
+      has scale animation that will be discarded.\n\t'Bip01_Neck' has scale animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger21' has scale animation that will be discarded.\n\t'Bip01_L_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be discarded.\n\t'Bip01_R_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger12' has scale animation that will be discarded.\n\t'Bip01_R_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'pistolStandReloadGun' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Spine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine1' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation that
+      will be discarded.\n\t'Bip01_L_Finger11' has scale animation that will be discarded.\n\t'Bip01_L_Finger12'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger2' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger21' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger22' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger12' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger2' has scale animation that
+      will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will be discarded.\n\t'Bip01_R_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'pistolStandTwoHandsShooting' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Bip01_Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine1' has scale animation
+      that will be discarded.\n\t'Bip01_Spine2' has scale animation that will be discarded.\n\t'Bip01_Head'
+      has scale animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger12' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger22' has scale animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has translation animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Calf' has scale animation that will be discarded.\n\nClip
+      'pistolFromStandToSquatA' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine1' has scale
+      animation that will be discarded.\n\t'Bip01_Spine2' has scale animation that
+      will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger12' has scale animation that will be discarded.\n\t'Bip01_L_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_L_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will be discarded.\n\t'Bip01_R_Forearm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger0' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger12' has scale animation that will be discarded.\n\t'Bip01_R_Finger21'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger22' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'pistolSquatOneHandLookingAround' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine1' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger12' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger21' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger22' has scale animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has translation animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has scale animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'pistolSquatOneHandReload'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Spine' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine1'
+      has scale animation that will be discarded.\n\t'Bip01_Spine2' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation that
+      will be discarded.\n\t'Bip01_L_Finger11' has scale animation that will be discarded.\n\t'Bip01_L_Finger12'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger2' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger21' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger22' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger12' has scale animation that will be discarded.\n\t'Bip01_R_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\nClip 'pistolFromSquatToProne' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01' has scale animation that will be
+      discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_Pelvis' has scale animation that
+      will be discarded.\n\t'Bip01_Spine' has translation animation that will be discarded.\n\t'Bip01_Spine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine1'
+      has scale animation that will be discarded.\n\t'Bip01_Neck' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger2' has scale animation that will be
+      discarded.\n\t'Bip01_R_Clavicle' has translation animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger12' has scale animation that will be discarded.\n\t'Bip01_R_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'pistolProneTwoHandShoot' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Spine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_L_Finger12' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger21' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger22' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation that
+      will be discarded.\n\t'Bip01_R_Finger0' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'pistolProneToSquat' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine2' has scale animation that
+      will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger2' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger21' has scale animation that will be discarded.\n\t'Bip01_R_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'pistolSquatOneHandReload1' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine2'
+      has scale animation that will be discarded.\n\t'Bip01_Head' has scale animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will be discarded.\n\t'Bip01_L_Forearm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger0' has scale animation that will be
+      discarded.\n\t'Bip01_L_Finger1' has scale animation that will be discarded.\n\t'Bip01_L_Finger11'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger12' has scale
+      animation that will be discarded.\n\t'Bip01_L_Finger2' has scale animation that
+      will be discarded.\n\t'Bip01_L_Finger21' has scale animation that will be discarded.\n\t'Bip01_L_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger12' has scale animation that will be discarded.\n\t'Bip01_R_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\nClip 'pistolSquatToStand' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Pelvis' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine2' has scale
+      animation that will be discarded.\n\t'Bip01_Head' has scale animation that will
+      be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger2' has scale animation that will be discarded.\n\t'Bip01_L_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger12' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger21' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger22' has scale animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has translation animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has scale animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'pistolStandToProne' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine1' has scale
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will be discarded.\n\t'Bip01_L_Forearm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger0' has scale animation that will be
+      discarded.\n\t'Bip01_L_Finger1' has scale animation that will be discarded.\n\t'Bip01_L_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_L_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation that
+      will be discarded.\n\t'Bip01_R_Finger12' has scale animation that will be discarded.\n\t'Bip01_R_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Calf'
+      has scale animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'pistolProneToStand' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bip01' has scale
+      animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine1' has scale animation that
+      will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_R_Clavicle' has translation animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger12' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger22' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Calf' has scale animation that
+      will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Calf' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'mp40mp40CombatIdle' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine1' has translation
+      animation that will be discarded.\n\t'Bip01_Spine1' has scale animation that
+      will be discarded.\n\t'Bip01_Spine2' has translation animation that will be
+      discarded.\n\t'Bip01_Spine2' has scale animation that will be discarded.\n\t'Bip01_Neck'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger12' has scale animation that will be discarded.\n\t'Bip01_L_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_L_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will be discarded.\n\t'Bip01_R_Forearm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger0' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger01' has scale animation that will be discarded.\n\t'Bip01_R_Finger11'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger2' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger22' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Calf'
+      has scale animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation
+      that will be discarded.\n\nClip 'mp40GunButtAttack' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Pelvis' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Pelvis' has scale
+      animation that will be discarded.\n\t'Bip01_Spine' has translation animation
+      that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Spine2' has scale animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger12' has scale animation that will be discarded.\n\t'Bip01_L_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be discarded.\n\t'Bip01_R_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger01' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger11' has scale animation that will be discarded.\n\t'Bip01_R_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'mp40StandGunPointing' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Neck' has scale animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will be discarded.\n\t'Bip01_L_Forearm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger0' has scale animation that will be
+      discarded.\n\t'Bip01_L_Finger1' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger2' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger22' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Calf'
+      has scale animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation
+      that will be discarded.\n\nClip 'mp40StandFireGun' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01' has scale animation that will be
+      discarded.\n\t'Bip01_Pelvis' has scale animation that will be discarded.\n\t'Bip01_Spine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_L_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be discarded.\n\t'Bip01_L_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_L_Finger2' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Calf' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'mp40mp40StandReloadGun' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine1' has scale animation
+      that will be discarded.\n\t'Bip01_Spine2' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger12' has scale animation that will be discarded.\n\t'Bip01_L_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_L_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger2' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger22' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Foot' has scale
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'mp40ProneFire' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Spine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'mp40ProneDeath' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bip01' has scale animation that will be discarded.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has translation animation that will be discarded.\n\t'Bip01_Spine' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine1'
+      has scale animation that will be discarded.\n\t'Bip01_Spine2' has scale animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has translation animation that will
+      be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation that
+      will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will be discarded.\n\t'Bip01_R_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'mp40FromLyingToStanding' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01' has scale animation that will be
+      discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_Pelvis' has scale animation that
+      will be discarded.\n\t'Bip01_Spine' has translation animation that will be discarded.\n\t'Bip01_Spine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine1' has scale animation
+      that will be discarded.\n\t'Bip01_Spine2' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_L_Finger2' has scale animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has translation animation that will
+      be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger11' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger2' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger21' has scale animation that will be discarded.\n\t'Bip01_R_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Calf' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Calf' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'mp40FromStandingToSquat'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger2' has scale animation that will be discarded.\n\t'Bip01_L_Finger21'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be discarded.\n\t'Bip01_R_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger2' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger21' has scale animation that will be discarded.\n\t'Bip01_R_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Calf' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'mp40FromSquatToLying' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine2' has scale animation that
+      will be discarded.\n\t'Bip01_Neck' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger2' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger2' has scale animation that will be discarded.\n\t'Bip01_R_Finger21'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger22' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Calf' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Calf' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'mp40FromLyingToSquat' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bip01' has scale
+      animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Pelvis' has scale
+      animation that will be discarded.\n\t'Bip01_Spine' has translation animation
+      that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale animation
+      that will be discarded.\n\t'Bip01_Spine1' has scale animation that will be discarded.\n\t'Bip01_Neck'
+      has scale animation that will be discarded.\n\t'Bip01_L_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be discarded.\n\t'Bip01_L_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_L_Finger11' has scale animation that will be discarded.\n\t'Bip01_L_Finger12'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger2' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger21' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger22' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger2' has scale animation that
+      will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will be discarded.\n\t'Bip01_R_Finger22'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'mp40LookingAroundSquat' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01' has scale animation that will be
+      discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_Pelvis' has scale animation that
+      will be discarded.\n\t'Bip01_Spine' has translation animation that will be discarded.\n\t'Bip01_Spine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_L_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be discarded.\n\t'Bip01_L_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_L_Finger11' has scale animation that will be discarded.\n\t'Bip01_L_Finger21'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger22' has scale
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will be discarded.\n\t'Bip01_R_Forearm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger0' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger01' has scale animation that will be discarded.\n\t'Bip01_R_Finger11'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger2' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger21' has scale animation that will
+      be discarded.\n\t'Bip01_R_Finger22' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'mp40SquatCombatReady' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bip01' has scale
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'mp40MP40SqatFire' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Spine2' has scale animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will be discarded.\n\t'Bip01_L_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will be discarded.\n\t'Bip01_R_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'mp40SquatReload' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Pelvis' has scale animation
+      that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale animation
+      that will be discarded.\n\t'Bip01_Spine1' has translation animation that will
+      be discarded.\n\t'Bip01_Spine1' has scale animation that will be discarded.\n\t'Bip01_Spine2'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_L_Finger12' has scale animation that will be discarded.\n\t'Bip01_L_Finger2'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_L_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger21' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger22' has scale animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has translation animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'mp40FromSquatToStanding' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be discarded.\n\t'Bip01_L_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_R_Clavicle' has translation animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger01' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Calf' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Calf' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'mp40StraifeLeft' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Bip01_Pelvis' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation
+      that will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'mp40StraifeRight' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Calf'
+      has scale animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_R_Calf' has scale animation that will be discarded.\n\nClip
+      'mp40WalkWithGun' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be discarded.\n\t'Bip01_L_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_L_Finger12' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger21' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger22' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'Dissapointed' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine2' has scale animation that
+      will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger11' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be
+      discarded.\n\nClip 'Explanation' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Bip01' has scale animation that will be discarded.\n\t'Bip01_Spine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Head' has scale animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will be discarded.\n\t'Bip01_L_Forearm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be discarded.\n\t'Bip01_R_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'PointingA' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Bip01' has scale animation that
+      will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine2' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Calf'
+      has scale animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation
+      that will be discarded.\n\nClip 'Stretching' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bip01' has scale animation that will be discarded.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Neck' has scale animation that will
+      be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger12' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'UseObject' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine2' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'SitDown' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Bip01_Spine2' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Calf' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Calf' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'StandFromSitting' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Pelvis' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine1' has scale animation that
+      will be discarded.\n\t'Bip01_Neck' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Calf' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'GoToSleepPOSE' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine1' has scale animation that
+      will be discarded.\n\t'Bip01_Spine2' has scale animation that will be discarded.\n\t'Bip01_Neck'
+      has scale animation that will be discarded.\n\t'Bip01_Head' has scale animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be discarded.\n\t'Bip01_R_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Calf'
+      has scale animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Calf'
+      has scale animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation
+      that will be discarded.\n\nClip 'Sleeping' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine1' has scale animation that
+      will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation that
+      will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\nClip 'WakingUp' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01' has scale animation that will be
+      discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_Spine' has translation animation
+      that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale animation
+      that will be discarded.\n\t'Bip01_Spine1' has scale animation that will be discarded.\n\t'Bip01_Spine2'
+      has scale animation that will be discarded.\n\t'Bip01_Neck' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger12' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'ClimbLadder' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Bip01' has scale animation
+      that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Neck' has scale animation that will
+      be discarded.\n\t'Bip01_L_Clavicle' has translation animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be discarded.\n\t'Bip01_R_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has translation animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has scale animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Calf'
+      has scale animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation
+      that will be discarded.\n\nClip 'ClimbRope' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bip01_Pelvis' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Neck' has scale
+      animation that will be discarded.\n\t'Bip01_Head' has scale animation that will
+      be discarded.\n\t'Bip01_L_Clavicle' has translation animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation that
+      will be discarded.\n\t'Bip01_L_Finger0' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Calf' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'ClimbWall' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will be discarded.\n\t'Bip01_L_Forearm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger0' has scale animation that will be
+      discarded.\n\t'Bip01_L_Finger12' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'DyingA' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Bip01' has scale animation that will be discarded.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine2' has scale animation that
+      will be discarded.\n\t'Bip01_Neck' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'DyingB' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Bip01' has scale animation that will be discarded.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Head' has scale animation that will
+      be discarded.\n\t'Bip01_L_Clavicle' has translation animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger11' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'JumpStanding' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Bip01' has scale animation
+      that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Pelvis' has scale animation
+      that will be discarded.\n\t'Bip01_Spine' has translation animation that will
+      be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_Spine' has scale animation that
+      will be discarded.\n\t'Bip01_Spine1' has scale animation that will be discarded.\n\t'Bip01_Spine2'
+      has scale animation that will be discarded.\n\t'Bip01_Neck' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Finger0' has scale animation that will be discarded.\n\t'Bip01_L_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be discarded.\n\t'Bip01_R_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has translation animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has scale animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'JumpRunning' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Bip01' has scale animation
+      that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Pelvis' has scale animation
+      that will be discarded.\n\t'Bip01_Spine' has translation animation that will
+      be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_Spine' has scale animation that
+      will be discarded.\n\t'Bip01_Spine1' has scale animation that will be discarded.\n\t'Bip01_Head'
+      has scale animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Calf' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'Sneaking' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Spine1' has scale animation that
+      will be discarded.\n\t'Bip01_Spine2' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger11'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Calf' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'Walk' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has translation animation that will be discarded.\n\t'Bip01_Spine' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine1' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_L_Finger0' has scale animation that will be discarded.\n\t'Bip01_L_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation that
+      will be discarded.\n\t'Bip01_R_Finger11' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'Swimming' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Bip01' has scale animation that
+      will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Bip01_Pelvis' has scale animation
+      that will be discarded.\n\t'Bip01_Spine' has translation animation that will
+      be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_Neck' has scale animation that will
+      be discarded.\n\t'Bip01_L_Clavicle' has translation animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation that
+      will be discarded.\n\t'Bip01_L_Finger0' has scale animation that will be discarded.\n\t'Bip01_L_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'HitFromBack' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Bip01' has scale animation
+      that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Pelvis' has scale animation
+      that will be discarded.\n\t'Bip01_Spine' has translation animation that will
+      be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_Spine' has scale animation that
+      will be discarded.\n\t'Bip01_Neck' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger12' has scale animation that will
+      be discarded.\n\t'Bip01_R_Clavicle' has translation animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger11' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'HitFromFront' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bip01' has scale animation that will be discarded.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has translation animation that will be discarded.\n\t'Bip01_Spine' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Neck' has scale animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'HitFromLeft' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has translation animation that will be discarded.\n\t'Bip01_Spine' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Neck' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Calf' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'HitFromRight' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Bip01' has scale animation
+      that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Neck' has scale
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation
+      that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will be discarded.\n\t'Bip01_L_Forearm'
+      has scale animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger0' has scale animation that will be
+      discarded.\n\t'Bip01_L_Finger1' has scale animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that will be
+      discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_L_Foot' has scale animation that
+      will be discarded.\n\t'Bip01_R_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_R_Thigh' has scale animation that will be discarded.\n\t'Bip01_R_Foot'
+      has scale animation that will be discarded.\n\nClip 'Drinking' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine1' has scale animation
+      that will be discarded.\n\t'Bip01_Spine2' has scale animation that will be discarded.\n\t'Bip01_Neck'
+      has scale animation that will be discarded.\n\t'Bip01_L_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be discarded.\n\t'Bip01_L_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger12' has scale
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'MovingLeft' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Bip01_Spine1' has scale animation that will be discarded.\n\t'Bip01_Head'
+      has scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation
+      that will be discarded.\n\nClip 'MovingRight' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Head' has scale animation that will
+      be discarded.\n\t'Bip01_L_Clavicle' has scale animation that will be discarded.\n\t'Bip01_L_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation that
+      will be discarded.\n\t'Bip01_L_Thigh' has scale animation that will be discarded.\n\t'Bip01_L_Foot'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation
+      that will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'SayNo' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Pelvis'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' has translation
+      animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine' has scale
+      animation that will be discarded.\n\t'Bip01_Neck' has scale animation that will
+      be discarded.\n\t'Bip01_L_Clavicle' has translation animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has translation animation that
+      will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation
+      that will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_R_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_L_Foot' has scale animation that will be discarded.\n\t'Bip01_R_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has scale
+      animation that will be discarded.\n\t'Bip01_R_Foot' has scale animation that
+      will be discarded.\n\nClip 'Thinking' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Bip01' has scale animation that will be discarded.\n\t'Bip01_Pelvis'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has translation animation that will be discarded.\n\t'Bip01_Spine' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine1' has scale animation
+      that will be discarded.\n\t'Bip01_Spine2' has scale animation that will be discarded.\n\t'Bip01_Neck'
+      has scale animation that will be discarded.\n\t'Bip01_L_Clavicle' has translation
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale animation
+      that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation that will
+      be discarded.\n\t'Bip01_L_Forearm' has scale animation that will be discarded.\n\t'Bip01_L_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger0' has scale animation
+      that will be discarded.\n\t'Bip01_L_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_R_Clavicle' has translation animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has scale animation that will be discarded.\n\t'Bip01_R_Hand' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger1' has scale animation that will be
+      discarded.\n\t'Bip01_R_Finger11' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Foot' has scale
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'NotSure' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Pelvis' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has translation animation that will be discarded.\n\t'Bip01_Spine' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine1' has scale animation
+      that will be discarded.\n\t'Bip01_Spine2' has scale animation that will be discarded.\n\t'Bip01_Head'
+      has scale animation that will be discarded.\n\t'Bip01_L_Clavicle' has scale
+      animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale animation
+      that will be discarded.\n\t'Bip01_L_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has scale animation that will be discarded.\n\t'Bip01_L_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Clavicle' has scale animation that will
+      be discarded.\n\t'Bip01_R_UpperArm' has scale animation that will be discarded.\n\t'Bip01_R_Hand'
+      has scale animation that will be discarded.\n\t'Bip01_R_Finger1' has scale animation
+      that will be discarded.\n\t'Bip01_R_Finger11' has scale animation that will
+      be discarded.\n\t'Bip01_L_Thigh' has translation animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has scale animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that
+      will be discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n\nClip
+      'Warning' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Bip01'
+      has scale animation that will be discarded.\n\t'Bip01_Spine' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bip01_Spine'
+      has scale animation that will be discarded.\n\t'Bip01_Spine2' has scale animation
+      that will be discarded.\n\t'Bip01_Head' has scale animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has scale animation that will be discarded.\n\t'Bip01_L_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_L_Hand' has scale animation that
+      will be discarded.\n\t'Bip01_L_Finger0' has scale animation that will be discarded.\n\t'Bip01_L_Finger1'
+      has scale animation that will be discarded.\n\t'Bip01_R_UpperArm' has scale
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has scale animation that
+      will be discarded.\n\t'Bip01_R_Hand' has scale animation that will be discarded.\n\t'Bip01_L_Thigh'
+      has translation animation that will be discarded.\n\t'Bip01_L_Foot' has scale
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_R_Thigh' has scale animation that will be
+      discarded.\n\t'Bip01_R_Foot' has scale animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Bip01
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Finger0
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Finger01
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Finger1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Finger11
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Finger12
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Finger2
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Finger21
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_L_Finger22
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Finger0
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Finger01
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Finger1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Finger11
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Finger12
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Finger2
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Finger21
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_R_Finger22
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01_Neck
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: SoldierBaseReleaseA1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: badgesCHESTall
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: badgesCHESTofficer
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: badgesHATofficer
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: badgesHATofficerInsignia
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BeltAmmo
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BeltBuckleA
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BeltBuckleB
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GermanFieldPoliceNeckPlace
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GermanFieldPoliceOfficer
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GHands
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hairBASE
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hatOFFICER
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hatOFFICERb
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hatSOLDIER
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Holster
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: legsOFFICER
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: legsSOLDIERa
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MapRoot
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0.00633461, y: -0.0042940523, z: 0.00025957107}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01
+      parentName: MapRoot
+      position: {x: 0.009464331, y: 1.028672, z: -0.050306037}
+      rotation: {x: 0.5, y: -0.5, z: -0.50000006, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_Pelvis
+      parentName: Bip01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0.50000006, z: 0.50000006, w: 0.5}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000007}
+    - name: Bip01_Spine
+      parentName: Bip01_Pelvis
+      position: {x: -0.11083122, y: 0.016194299, z: 0.000000109999995}
+      rotation: {x: 0.0000019967556, y: -0.000000029802322, z: 0.0003978908, w: -1}
+      scale: {x: 1.0000044, y: 1.0000049, z: 1.0000058}
+    - name: Bip01_L_Thigh
+      parentName: Bip01_Spine
+      position: {x: 0.1110167, y: -0.01751817, z: 0.15546937}
+      rotation: {x: 0.026415113, y: -0.9996053, z: 0.00027186563, w: -0.009569047}
+      scale: {x: 1.0000024, y: 1.0000068, z: 1.0000051}
+    - name: Bip01_L_Calf
+      parentName: Bip01_L_Thigh
+      position: {x: -0.4352811, y: 0.00000003, z: -0.00000002}
+      rotation: {x: -0.000000060303115, y: 9.3132224e-10, z: 0.08948803, w: 0.9959879}
+      scale: {x: 1.0000007, y: 0.99999946, z: 1.0000005}
+    - name: Bip01_L_Foot
+      parentName: Bip01_L_Calf
+      position: {x: -0.46156958, y: 0.00000005999994, z: -1.5233832e-14}
+      rotation: {x: 0.00058000465, y: 0.009554983, z: -0.06354089, w: 0.9979333}
+      scale: {x: 0.9999988, y: 0.9999954, z: 1.0000011}
+    - name: Bip01_R_Thigh
+      parentName: Bip01_Spine
+      position: {x: 0.11469482, y: -0.01503047, z: -0.1492103}
+      rotation: {x: 0.026414346, y: -0.9996053, z: -0.00027475334, w: 0.009568957}
+      scale: {x: 1.0000033, y: 1.0000044, z: 1.0000042}
+    - name: Bip01_R_Calf
+      parentName: Bip01_R_Thigh
+      position: {x: -0.43528175, y: 0.00000002, z: 0.00000021}
+      rotation: {x: -0.000000062136664, y: 0.00000005029141, z: 0.08948799, w: 0.9959879}
+      scale: {x: 1, y: 1.0000005, z: 1.0000001}
+    - name: Bip01_R_Foot
+      parentName: Bip01_R_Calf
+      position: {x: -0.45793387, y: -0.00411475, z: 0.05632597}
+      rotation: {x: -0.000579935, y: -0.0095550055, z: -0.063540876, w: 0.9979333}
+      scale: {x: 0.9999957, y: 0.9999972, z: 1}
+    - name: Bip01_Spine1
+      parentName: Bip01_Spine
+      position: {x: -0.12334061, y: -0.0001117, z: 0}
+      rotation: {x: -0, y: -0, z: 5.950795e-14, w: 1}
+      scale: {x: 1.0000035, y: 1.0000031, z: 1.000004}
+    - name: Bip01_Spine2
+      parentName: Bip01_Spine1
+      position: {x: -0.14028427, y: -0.00018423, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000052, y: 1.0000057, z: 1.0000079}
+    - name: Bip01_Neck
+      parentName: Bip01_Spine2
+      position: {x: -0.24319643, y: 0.00022479, z: -1.9837849e-14}
+      rotation: {x: 0.0000001935417, y: 0.0000010162574, z: -0.22495113, w: 0.9743701}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000015}
+    - name: Bip01_Head
+      parentName: Bip01_Neck
+      position: {x: -0.07228256, y: -0.00000038, z: 0}
+      rotation: {x: -0.000000018411779, y: -0.000000035012015, z: 0.15682812, w: 0.9876259}
+      scale: {x: 1.0000108, y: 1.0000131, z: 1.00001}
+    - name: Bip01_L_Clavicle
+      parentName: Bip01_Neck
+      position: {x: 0.048353128, y: 0.02337059, z: 0.0410745}
+      rotation: {x: 0.6845107, y: 0.17733261, z: -0.69285154, w: 0.14126247}
+      scale: {x: 1.0000197, y: 1.0000012, z: 0.9999863}
+    - name: Bip01_L_UpperArm
+      parentName: Bip01_L_Clavicle
+      position: {x: -0.1755976, y: -0.000000050000008, z: -0.0000015899997}
+      rotation: {x: 0.02052126, y: -0.022979673, z: 0.022880703, w: 0.9992634}
+      scale: {x: 1.0000143, y: 1.0000018, z: 0.99998546}
+    - name: Bip01_L_Forearm
+      parentName: Bip01_L_UpperArm
+      position: {x: -0.33552447, y: -0.000000070000006, z: 0.00000008}
+      rotation: {x: 0.0000000055879337, y: -0.000000059604623, z: 0.026705952, w: 0.9996434}
+      scale: {x: 1.0000054, y: 1.0000027, z: 1.0000002}
+    - name: Bip01_L_Hand
+      parentName: Bip01_L_Forearm
+      position: {x: -0.23164718, y: 0.000000039999893, z: 0.00000025000008}
+      rotation: {x: 0.7068251, y: -0.00000010920379, z: -0.00000013607853, w: -0.70738846}
+      scale: {x: 1.0000046, y: 1.0000259, z: 0.99998593}
+    - name: Bip01_L_Finger0
+      parentName: Bip01_L_Hand
+      position: {x: -0.04324466, y: -0.00369675, z: -0.08825794}
+      rotation: {x: -0.67424357, y: 0.17823729, z: -0.06880243, w: -0.7133676}
+      scale: {x: 1.0000024, y: 1.0000502, z: 0.9999512}
+    - name: Bip01_L_Finger01
+      parentName: Bip01_L_Finger0
+      position: {x: -0.04326664, y: 0.00000002, z: -0.00000008}
+      rotation: {x: -0.00000011920925, y: -0.00000016391272, z: -0.116402335, w: 0.9932022}
+      scale: {x: 0.999991, y: 1.0000107, z: 1.0000012}
+    - name: Bip01_L_Finger1
+      parentName: Bip01_L_Hand
+      position: {x: -0.12885404, y: -0.00250885, z: -0.045528412}
+      rotation: {x: -0.00612321, y: -0.068775415, z: 0.019970002, w: 0.9974135}
+      scale: {x: 1, y: 1.0000007, z: 1.0000013}
+    - name: Bip01_L_Finger11
+      parentName: Bip01_L_Finger1
+      position: {x: -0.03562651, y: 0.00245987, z: -0.00174665}
+      rotation: {x: -0.0020892175, y: 0.0081806155, z: -0.081872, w: 0.9966071}
+      scale: {x: 1.0000087, y: 0.9999898, z: 0.99999875}
+    - name: Bip01_L_Finger12
+      parentName: Bip01_L_Finger11
+      position: {x: -0.03172737, y: -0.00053574, z: -0.00264705}
+      rotation: {x: 0.00000007697406, y: 0.00000007835207, z: -0.1164022, w: 0.9932022}
+      scale: {x: 1.000009, y: 0.99999195, z: 1.0000014}
+    - name: Bip01_L_Finger2
+      parentName: Bip01_L_Hand
+      position: {x: -0.126449, y: 0.0082, z: 0.02529521}
+      rotation: {x: -0.008215153, y: -0.16545457, z: 0.031193774, w: 0.98568976}
+      scale: {x: 1, y: 1.0000017, z: 1.0000023}
+    - name: Bip01_L_Finger21
+      parentName: Bip01_L_Finger2
+      position: {x: -0.03254919, y: 0.0024054, z: 0.00460599}
+      rotation: {x: 0.004337177, y: 0.06660863, z: -0.06539455, w: 0.9956245}
+      scale: {x: 1.0000086, y: 0.9999908, z: 0.99999905}
+    - name: Bip01_L_Finger22
+      parentName: Bip01_L_Finger21
+      position: {x: -0.03389645, y: -0.00038185, z: -0.00179316}
+      rotation: {x: -0.000000005735128, y: 0.000000004819122, z: -0.11640221, w: 0.9932022}
+      scale: {x: 1.0000085, y: 0.99999136, z: 0.9999998}
+    - name: Bip01_R_Clavicle
+      parentName: Bip01_Neck
+      position: {x: 0.04835434, y: 0.023371428, z: -0.0410743}
+      rotation: {x: -0.68451065, y: -0.17732678, z: -0.6928534, w: 0.14126085}
+      scale: {x: 1.0000027, y: 0.9999989, z: 0.9999995}
+    - name: Bip01_R_UpperArm
+      parentName: Bip01_R_Clavicle
+      position: {x: -0.17559755, y: 0.00000001000001, z: -0.0000015999998}
+      rotation: {x: 0.018882575, y: -0.022908648, z: -0.026731942, w: -0.9992017}
+      scale: {x: 1.0000098, y: 1.0000005, z: 0.9999903}
+    - name: Bip01_R_Forearm
+      parentName: Bip01_R_UpperArm
+      position: {x: -0.33552447, y: 0.00000002, z: -0.00000023}
+      rotation: {x: 0.00000005774197, y: 0.000000029802308, z: 0.02670603, w: 0.9996433}
+      scale: {x: 1.000006, y: 1.0000051, z: 1.0000036}
+    - name: Bip01_R_Hand
+      parentName: Bip01_R_Forearm
+      position: {x: -0.2316476, y: 0, z: 0.00000038}
+      rotation: {x: -0.7068249, y: -0.000000008728019, z: -0.000000024987056, w: -0.7073886}
+      scale: {x: 1.0000093, y: 1.0000484, z: 0.9999608}
+    - name: Bip01_R_Finger0
+      parentName: Bip01_R_Hand
+      position: {x: -0.04324455, y: -0.00369583, z: 0.088257946}
+      rotation: {x: -0.67404723, y: 0.17984691, z: 0.069003925, w: 0.71312964}
+      scale: {x: 1.000005, y: 1.0000044, z: 0.9999893}
+    - name: Bip01_R_Finger01
+      parentName: Bip01_R_Finger0
+      position: {x: -0.043267287, y: -0.00000004, z: 0.00000014999999}
+      rotation: {x: -0.000000029802315, y: 0.00000032782546, z: -0.116401605, w: 0.99320227}
+      scale: {x: 0.99999094, y: 1.0000111, z: 1.0000007}
+    - name: Bip01_R_Finger1
+      parentName: Bip01_R_Hand
+      position: {x: -0.12912981, y: -0.00234024, z: 0.0466952}
+      rotation: {x: 0.0057447795, y: 0.09229327, z: 0.019380499, w: 0.9955267}
+      scale: {x: 1.0000007, y: 1.0000004, z: 0.9999994}
+    - name: Bip01_R_Finger11
+      parentName: Bip01_R_Finger1
+      position: {x: -0.03666893, y: 0.00206169, z: 0.00030162997}
+      rotation: {x: 0.000000078434795, y: -0.000000058322968, z: -0.11640163, w: 0.99320227}
+      scale: {x: 1.0000027, y: 0.99999964, z: 0.9999998}
+    - name: Bip01_R_Finger12
+      parentName: Bip01_R_Finger11
+      position: {x: -0.03151368, y: -0.0074931197, z: 0.0007312}
+      rotation: {x: 0.000000046500347, y: 0.00000004604918, z: -0.11640184, w: 0.99320227}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1}
+    - name: Bip01_R_Finger2
+      parentName: Bip01_R_Hand
+      position: {x: -0.1321053, y: -0.0072272494, z: -0.00828085}
+      rotation: {x: 0.005078102, y: 0.07799661, z: 0.016824745, w: 0.9967987}
+      scale: {x: 1.000001, y: 1.0000002, z: 1.0000002}
+    - name: Bip01_R_Finger21
+      parentName: Bip01_R_Finger2
+      position: {x: -0.03746019, y: 0.00195915, z: 0.00134163}
+      rotation: {x: 0.0056105987, y: -0.014086393, z: 0.014969962, w: 0.99977297}
+      scale: {x: 1.0000023, y: 0.9999997, z: 0.9999998}
+    - name: Bip01_R_Finger22
+      parentName: Bip01_R_Finger21
+      position: {x: -0.030593108, y: 0.0047187, z: 0.0021611399}
+      rotation: {x: 0.000000046500347, y: 0.00000004604918, z: -0.11640184, w: 0.99320227}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000001}
+    - name: MP40GermanmachineGun
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PassBook
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pistol
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StopSign
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SuppliesBag
+      parentName: SoldierBaseReleaseA1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
