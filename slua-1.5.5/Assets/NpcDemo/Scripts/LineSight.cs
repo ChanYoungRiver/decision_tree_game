@@ -22,10 +22,12 @@ public class LineSight : MonoBehaviour {
     }
     bool InFoV()
     {
+
         Vector3 DirToTarget = Target.position - EyePoint.position;//取得目标的方向
         float Angle = Vector3.Angle(EyePoint.forward, DirToTarget);//获取正前方和目标之间的角度
-        if(Angle<=FieldOfView)
-        { return true; }//确定敌人是否在视野中，但不考虑任何物理障碍
+        if (Angle <= FieldOfView)
+        { return true; }//确定敌人是否在视野中，但不考虑任何物理障碍          
+ 
         return false;
     }
     bool ClearLineofSight()//士兵的眼睛和敌人是否存在任何物理障碍

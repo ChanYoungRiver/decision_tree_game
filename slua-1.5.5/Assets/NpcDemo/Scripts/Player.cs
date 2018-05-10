@@ -105,7 +105,7 @@ public class Player : MonoBehaviour {
         {
             agent.isStopped = true;
             ThisLineSight.Sensitity = LineSight.SightSensitivity.LOOSE;
-            //agent.isStopped = false;
+            agent.isStopped = false;
             m_transform.LookAt(enemy.transform);//面朝敌人
           //  m_transform.Translate(Vector3.forward * Time.deltaTime);
             agent.SetDestination(ThisLineSight.LastKnowSighting);

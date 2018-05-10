@@ -13,7 +13,8 @@ public class Enemy : MonoBehaviour {
     float m_timer = 2;//计时器
     int m_life=1000;//敌人生命值
     Vector3 originalPosition;//士兵初始位置
-                             // Use this for initialization
+    protected EnemySpawn m_spawn;
+    // Use this for initialization
     void Start () {
         m_transform = this.transform;
         originalPosition = transform.position;
@@ -26,6 +27,11 @@ public class Enemy : MonoBehaviour {
         //设置寻路目标
        
 	}
+    public void Init(EnemySpawn spawn)
+    {
+        m_spawn = spawn;
+        m_spawn.enemyCount++;
+    }
     /// <summary>  
     /// 敌人被击中时触发的逻辑代码  
     /// </summary>  
@@ -65,8 +71,8 @@ public class Enemy : MonoBehaviour {
             m_ani.SetBool("attack", true);
             m_player.OnDamage(1);
         }
-        // EnemyState();
-
+        EnemyState();
+ 
     }
     void EnemyState()
     { //获取当前动画状态
@@ -128,6 +134,14 @@ public class Enemy : MonoBehaviour {
                 m_ani.SetBool("idle", true);
                 m_timer = 2;
                 m_player.OnDamage(1);
+            }
+        }
+        if(stateInfo.shortNameHash == Animator.StringToHash("death") && !m_ani.IsInTransition(0))
+        {
+            if(stateInfo.normalizedTime>=1.0f)
+            {
+                m_spawn.enemyCount--;
+                Destroy(this.gameObject);
             }
         }
     }
