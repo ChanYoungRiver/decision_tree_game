@@ -6,7 +6,7 @@ public class EnemySpawn : MonoBehaviour {
     public Transform enemy;
     public int enemyCount = 0;
     public int maxEnemy = 3;
-    public float timer = 30;
+    public float timer = 10;
     protected Transform m_transform;
 
 	// Use this for initialization
@@ -21,7 +21,7 @@ public class EnemySpawn : MonoBehaviour {
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
-            timer = 60;
+            timer = 10;
             Transform obj = (Transform)Instantiate(enemy, m_transform.position, Quaternion.identity);
             Enemy enemyIden = obj.GetComponent<Enemy>();
             enemyIden.Init(this);

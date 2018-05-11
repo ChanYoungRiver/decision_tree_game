@@ -6,7 +6,7 @@ public class LineSight : MonoBehaviour {
     public enum SightSensitivity { STRICT,LOOSE};    //我们视野的敏感度
     public SightSensitivity Sensitity = SightSensitivity.STRICT;//瞄准具灵敏度
     public bool CanSeeTarget = false;//能否看到敌人
-    public float FieldOfView = 90f;//视野范围，士兵眼睛能看到的两侧之间的角度
+    public float FieldOfView = 180f;//视野范围，士兵眼睛能看到的两侧之间的角度
     private Transform Target = null;//对目标的引用
     public Transform EyePoint = null;//对眼睛的引用
     private Transform ThisTransform = null;//对“transform”的引用

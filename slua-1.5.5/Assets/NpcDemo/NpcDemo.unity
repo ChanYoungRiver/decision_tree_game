@@ -1281,7 +1281,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: aa2fd64df23eb384a804fb25f097ae68, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -1293,7 +1293,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 607491570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -61.7, y: 0, z: 65.15}
+  m_LocalPosition: {x: -61.89, y: 0.1, z: 65.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 536070931}
@@ -1338,13 +1338,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc7c5507a3e0add48a5187f172b6c4e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeValue: 999
-  ammoNum: 6
+  ammoNum: 20
+  health: 999
   m_transform: {fileID: 607491574}
+  muzzlePoint: {fileID: 87199971}
   layer:
     serializedVersion: 2
     m_Bits: 768
-  fx: {fileID: 0}
+  fx: {fileID: 4902872521645258, guid: 74abdc66507433e44a4165f60a84e8b7, type: 2}
 --- !u!195 &607491576
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1354,7 +1355,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 0.5
+  m_Speed: 2.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1471,7 +1472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sensitity: 0
   CanSeeTarget: 0
-  FieldOfView: 360
+  FieldOfView: 180
   EyePoint: {fileID: 1893330756}
   LastKnowSighting: {x: 0, y: 0, z: 0}
 --- !u!114 &607491580
@@ -3352,6 +3353,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeValue: 100
   ammoNum: 6
+  m_transform: {fileID: 0}
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
+  fx: {fileID: 0}
+  Bullet: {fileID: 0}
+  muzzlePoint: {fileID: 0}
 --- !u!1 &1715859502
 GameObject:
   m_ObjectHideFlags: 0
@@ -3813,7 +3821,7 @@ MonoBehaviour:
   enemy: {fileID: 4677587075431586, guid: 11147cc46a6904744ba544fb1d092042, type: 2}
   enemyCount: 0
   maxEnemy: 3
-  timer: 20
+  timer: 10
 --- !u!4 &1812290637
 Transform:
   m_ObjectHideFlags: 0
@@ -3821,7 +3829,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1812290635}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.33512, y: 0.6295476, z: -61.216137}
+  m_LocalPosition: {x: -72.1, y: 0.6295476, z: 29.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
