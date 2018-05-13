@@ -2,27 +2,27 @@ using System;
 using System.Collections;
 using System.Data;
 
-public class Attribute
+public class CustomAttribute
 {
 	ArrayList _values;
 	String _name;
 	object _value;
 
-	public Attribute(String name, String[] values)
+	public CustomAttribute(String name, String[] values)
 	{
 		_name = name;
 		_values = new ArrayList(values);
 		_values.Sort();
 	}
 	
-	public Attribute(object value)
+	public CustomAttribute(object value)
 	{
 		_value = value;
 		_name = String.Empty;
 		_values = null;
 	}
 	
-	public String AttributeName
+	public String CustomAttributeName
 	{
 		get
 		{
@@ -85,9 +85,9 @@ public class Attribute
 public class TreeNode
 {
 	private ArrayList mChildren = null;
-	private Attribute mAttribute;
+	private CustomAttribute mCustomAttribute;
 	
-	 public TreeNode(Attribute attribute)
+	 public TreeNode(CustomAttribute attribute)
 	{
 		if (attribute.values != null)
 		{
@@ -100,12 +100,12 @@ public class TreeNode
 			mChildren = new ArrayList(1);
 			mChildren.Add(null);
 		}
-		mAttribute = attribute;
+		mCustomAttribute = attribute;
 	}
 	
 	public void AddTreeNode(TreeNode treeNode, String ValueName)
 	{
-		int index = mAttribute.indexValue(ValueName);
+		int index = mCustomAttribute.indexValue(ValueName);
 		mChildren[index] = treeNode;
 	}
 	
@@ -123,17 +123,17 @@ public class TreeNode
 		return (TreeNode)mChildren[index];
 	}
 	
-	public Attribute attribute
+	public CustomAttribute attribute
 	{
 		get
 		{
-			return mAttribute;
+			return mCustomAttribute;
 		}
 	}
 	
 	public TreeNode getChildByBranchName(String branchName)
 	{
-		int index = mAttribute.indexValue(branchName);
+		int index = mCustomAttribute.indexValue(branchName);
 		return (TreeNode)mChildren[index];
 	}
 
@@ -169,7 +169,7 @@ public class DecisionTreeID3
 	private DataTable mSamples;
 	private int mTotalPositives = 0;
 	private int mTotal = 0;
-	private String mTargetAttribute = "result";
+	private String mTargetCustomAttribute = "result";
 	private double mEntropySet = 0.0;
 	
 	private int CountTotalPositives(DataTable samples)
@@ -177,7 +177,7 @@ public class DecisionTreeID3
 		int result = 0;
 		foreach (DataRow aRow in samples.Rows)
 		{
-			if ((bool)aRow[mTargetAttribute] == true)
+			if ((bool)aRow[mTargetCustomAttribute] == true)
 				result++;
 		}
 		return result;
@@ -196,14 +196,14 @@ public class DecisionTreeID3
 		return result;
 	}
 	
-	private void GetValuesToAttribute(DataTable samples, Attribute attribute, String value, out int positives, out int negatives)
+	private void GetValuesToCustomAttribute(DataTable samples, CustomAttribute attribute, String value, out int positives, out int negatives)
 	{
 		positives = 0;
 		negatives = 0;
 		foreach (DataRow aRow in samples.Rows)
 		{
-			if (  ((String)aRow[attribute.AttributeName] == value) )
-				if ( (bool)aRow[mTargetAttribute] == true) 
+			if (  ((String)aRow[attribute.CustomAttributeName] == value) )
+				if ( (bool)aRow[mTargetCustomAttribute] == true) 
 					positives++;
 			else
 				negatives++;
@@ -211,7 +211,7 @@ public class DecisionTreeID3
 	}
 	
 	
-	private double Gain(DataTable samples, Attribute attribute)
+	private double Gain(DataTable samples, CustomAttribute attribute)
 	{
 		String[] values = attribute.values;
 		double sum = 0.0;
@@ -221,7 +221,7 @@ public class DecisionTreeID3
 			
 			positives = negatives = 0;
 			
-			GetValuesToAttribute(samples, attribute, values[i], out positives, out negatives);
+			GetValuesToCustomAttribute(samples, attribute, values[i], out positives, out negatives);
 			
 			double entropy = CalcEntropy(positives, negatives);				
 			sum += -(double)(positives + negatives)/mTotal * entropy;
@@ -229,12 +229,12 @@ public class DecisionTreeID3
 		return mEntropySet + sum;
 	}
 	
-	private Attribute GetBestAttribute(DataTable samples, Attribute[] attributes)
+	private CustomAttribute GetBestCustomAttribute(DataTable samples, CustomAttribute[] attributes)
 	{
 		double maxGain = double.MinValue;
-		Attribute result = null;
+		CustomAttribute result = null;
 		
-		foreach (Attribute attribute in attributes)
+		foreach (CustomAttribute attribute in attributes)
 		{
 			double aux = Gain(samples, attribute);
 			if (aux > maxGain)
@@ -246,11 +246,11 @@ public class DecisionTreeID3
 		return result;
 	}
 	
-	private bool AllSamplesPositives(DataTable samples, String targetAttribute)
+	private bool AllSamplesPositives(DataTable samples, String targetCustomAttribute)
 	{			
 		foreach (DataRow row in samples.Rows)
 		{
-			if ( (bool)row[targetAttribute] == false)
+			if ( (bool)row[targetCustomAttribute] == false)
 				return false;
 		}
 		
@@ -258,37 +258,37 @@ public class DecisionTreeID3
 	}
 	
 	
-	private bool AllSamplesNegatives(DataTable samples, String targetAttribute)
+	private bool AllSamplesNegatives(DataTable samples, String targetCustomAttribute)
 	{
 		foreach (DataRow row in samples.Rows)
 		{
-			if ( (bool)row[targetAttribute] == true)
+			if ( (bool)row[targetCustomAttribute] == true)
 				return false;
 		}
 		
 		return true;			
 	}
 	
-	private ArrayList GetDistinctValues(DataTable samples, String targetAttribute)
+	private ArrayList GetDistinctValues(DataTable samples, String targetCustomAttribute)
 	{
 		ArrayList distinctValues = new ArrayList(samples.Rows.Count);
 		foreach(DataRow row in samples.Rows)
 		{
-			if (distinctValues.IndexOf(row[targetAttribute]) == -1)
-				distinctValues.Add(row[targetAttribute]);
+			if (distinctValues.IndexOf(row[targetCustomAttribute]) == -1)
+				distinctValues.Add(row[targetCustomAttribute]);
 		}
 		
 		return distinctValues;
 	}
 	
 	
-	private object GetMostCommonValue(DataTable samples, String targetAttribute)
+	private object GetMostCommonValue(DataTable samples, String targetCustomAttribute)
 	{
-		ArrayList distinctValues = GetDistinctValues(samples, targetAttribute);
+		ArrayList distinctValues = GetDistinctValues(samples, targetCustomAttribute);
 		int[] count = new int[distinctValues.Count];
 		foreach(DataRow row in samples.Rows)
 		{
-			int index = distinctValues.IndexOf(row[targetAttribute]);
+			int index = distinctValues.IndexOf(row[targetCustomAttribute]);
 			count[index]++;
 		}
 		
@@ -308,57 +308,57 @@ public class DecisionTreeID3
 	}
 	
 	
-	private TreeNode InternalMountTree(DataTable samples, String targetAttribute, Attribute[] attributes)
+	private TreeNode InternalMountTree(DataTable samples, String targetCustomAttribute, CustomAttribute[] attributes)
 	{
-		if (AllSamplesPositives(samples, targetAttribute) == true)
-			return new TreeNode(new Attribute(true));
+		if (AllSamplesPositives(samples, targetCustomAttribute) == true)
+			return new TreeNode(new CustomAttribute(true));
 		
-		if (AllSamplesNegatives(samples, targetAttribute) == true)
-			return new TreeNode(new Attribute(false));
+		if (AllSamplesNegatives(samples, targetCustomAttribute) == true)
+			return new TreeNode(new CustomAttribute(false));
 		
 		if (attributes.Length == 0)
-			return new TreeNode(new Attribute(GetMostCommonValue(samples, targetAttribute)));			
+			return new TreeNode(new CustomAttribute(GetMostCommonValue(samples, targetCustomAttribute)));			
 		
 		mTotal = samples.Rows.Count;
-		mTargetAttribute = targetAttribute;
+		mTargetCustomAttribute = targetCustomAttribute;
 		mTotalPositives = CountTotalPositives(samples);
 		mEntropySet = CalcEntropy(mTotalPositives, mTotal - mTotalPositives);
 		
-		Attribute bestAttribute = GetBestAttribute(samples, attributes); 
-		if (bestAttribute == null)
-			return new TreeNode(new Attribute(false));
+		CustomAttribute bestCustomAttribute = GetBestCustomAttribute(samples, attributes); 
+		if (bestCustomAttribute == null)
+			return new TreeNode(new CustomAttribute(false));
 	
-		TreeNode root = new TreeNode(bestAttribute);
+		TreeNode root = new TreeNode(bestCustomAttribute);
 		
 		DataTable aSample = samples.Clone();			
 		
-		foreach(String value in bestAttribute.values)
+		foreach(String value in bestCustomAttribute.values)
 		{				
 			
 			aSample.Rows.Clear();
 			
-			DataRow[] rows = samples.Select(bestAttribute.AttributeName + " = " + "'"  + value + "'");
+			DataRow[] rows = samples.Select(bestCustomAttribute.CustomAttributeName + " = " + "'"  + value + "'");
 			
 			foreach(DataRow row in rows)
 			{					
 				aSample.Rows.Add(row.ItemArray);
 			}				
 			
-			ArrayList aAttributes = new ArrayList(attributes.Length - 1);
+			ArrayList aCustomAttributes = new ArrayList(attributes.Length - 1);
 			for(int i = 0; i < attributes.Length; i++)
 			{
-				if (attributes[i].AttributeName != bestAttribute.AttributeName)
-					aAttributes.Add(attributes[i]);
+				if (attributes[i].CustomAttributeName != bestCustomAttribute.CustomAttributeName)
+					aCustomAttributes.Add(attributes[i]);
 			}
 			
 			if (aSample.Rows.Count == 0)
 			{
-				return new TreeNode(new Attribute(GetMostCommonValue(aSample, targetAttribute)));
+				return new TreeNode(new CustomAttribute(GetMostCommonValue(aSample, targetCustomAttribute)));
 			}
 			else
 			{				
 				DecisionTreeID3 dc3 = new DecisionTreeID3();
-				TreeNode ChildNode =  dc3.MountTree(aSample, targetAttribute, (Attribute[])aAttributes.ToArray(typeof(Attribute)));
+				TreeNode ChildNode =  dc3.MountTree(aSample, targetCustomAttribute, (CustomAttribute[])aCustomAttributes.ToArray(typeof(CustomAttribute)));
 				root.AddTreeNode(ChildNode, value);
 			}
 		}
@@ -366,32 +366,32 @@ public class DecisionTreeID3
 	}
 	
 	
-	public TreeNode MountTree(DataTable samples, String targetAttribute, Attribute[] attributes)
+	public TreeNode MountTree(DataTable samples, String targetCustomAttribute, CustomAttribute[] attributes)
 	{
 		mSamples = samples;
-		return InternalMountTree(mSamples, targetAttribute, attributes);
+		return InternalMountTree(mSamples, targetCustomAttribute, attributes);
 	}
 	
 
 
-	public TreeNode Resolve(TreeNode node, string targetAttribute, params AttributeValue[] values)
+	public TreeNode Resolve(TreeNode node, string targetCustomAttribute, params AttributeValue[] values)
 	{
 		for(int i = 0; i < values.Length; i++)
 		{
 			var value = values[i];
-			if (node.attribute.AttributeName != value.name)
+			if (node.attribute.CustomAttributeName != value.name)
 				continue;
 
 			var child = node.getChildByBranchName ( value.value );
 			if (child != null)
 			{
-				return Resolve(child, targetAttribute, values);
+				return Resolve(child, targetCustomAttribute, values);
 			}
 		}
 		return node;
 	}
 
-	public string PrintResolve (TreeNode node, string targetAttribute, string tabs, AttributeValue[] values, string resolved = "")
+	public string PrintResolve (TreeNode node, string targetCustomAttribute, string tabs, AttributeValue[] values, string resolved = "")
 	{
 		var color = node.attribute.IsValue 
 			? (node.attribute.Value is bool && (bool)node.attribute.Value ? "#53ff9d" : "#ff7200")
@@ -400,7 +400,7 @@ public class DecisionTreeID3
 		for(int i = 0; i < values.Length; i++)
 		{
 			var value = values[i];
-			if (node.attribute.AttributeName != value.name)
+			if (node.attribute.CustomAttributeName != value.name)
 				continue;
 			
 			var child = node.getChildByBranchName ( value.value );
@@ -415,7 +415,7 @@ public class DecisionTreeID3
 					resolved += PrintResolve(value.basedOn.root, value.basedOn.info.predictColumn, currentTabs, value.basedOn.predicate);
 					resolved += currentTabs + "\n}\n";
 				}
-				resolved += PrintResolve(child, targetAttribute, "\t" + tabs, values, resolved);
+				resolved += PrintResolve(child, targetCustomAttribute, "\t" + tabs, values, resolved);
 			}
 		}
 		return resolved;

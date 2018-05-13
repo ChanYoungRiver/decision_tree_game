@@ -94,7 +94,7 @@ public class DemoUI : MonoBehaviour {
 	public void OnDecisionTreeReady(TreeNode root)
 	{
 		//text.text = root.PrintNode("--->");
-		treeSelect.options.Add(new Dropdown.OptionData(root.attribute.AttributeName));
+		treeSelect.options.Add(new Dropdown.OptionData(root.attribute.CustomAttributeName));
 		treeSelect.RefreshShownValue();
 		if (treeSelect.options.Count == 1)
 		{

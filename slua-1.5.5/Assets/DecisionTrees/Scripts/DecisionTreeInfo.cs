@@ -22,12 +22,12 @@ public class DecisionTreeInfo
 	}
 
 
-	public Attribute[] GetAttributes()
+	public CustomAttribute[] GetAttributes()
 	{
-		List<Attribute> result = new List<Attribute>();
+		List<CustomAttribute> result = new List<CustomAttribute>();
 		foreach(var info in inputs)
 		{
-			result.Add(new Attribute(info.name, info.values));
+			result.Add(new CustomAttribute(info.name, info.values));
 
 		}
 		return result.ToArray();
