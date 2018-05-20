@@ -206,6 +206,7 @@ namespace Game.AIBehaviorTree
 		}
 	}
 
+	//--返回基地
 	public class ActionSoliderGoHome:BNodeAction
 	{
 
@@ -226,6 +227,52 @@ namespace Game.AIBehaviorTree
 		{
 			return ActionResult.SUCCESS;
 
+		}
+	}
+
+	//敌人逃跑
+	public class ActionEnemySoliderEscape:BNodeAction
+	{
+		public ActionEnemySoliderEscape()
+			:base()
+		{
+			this.m_strName = "ActionEnemySoliderEscape";
+		}
+
+		public override void OnEnter (BInput input)
+		{
+			SoliderPlayer tinput = input as SoliderPlayer;
+			tinput.Escape ();
+		}
+			
+		public override ActionResult Excute (BInput input)
+		{
+			return ActionResult.SUCCESS;
+
+		}		
+	}
+
+	//范围内是否存在敌人 通用版
+	public class ConditionCommonNearbyAliveEnemy : BNodeCondition
+	{
+		public ConditionCommonNearbyAliveEnemy()
+			:base()
+		{
+			this.m_strName = "ConditionCommonNearbyAliveEnemy";
+		}
+
+
+		public override ActionResult Excute (BInput input)
+		{
+			SoliderPlayer tinput = input as SoliderPlayer;
+			bool isEnemyInSight = tinput.NearbyExistEnemy();
+			if(isEnemyInSight)
+			{
+								Debug.LogError ("ConditionNearbyAliveEnemy 范围内存在敌人"+this.m_strName);
+				return ActionResult.SUCCESS;
+			}
+						Debug.LogError ("ConditionNearbyAliveEnemy 范围内不存在敌人"+this.m_strName);
+			return ActionResult.FAILURE;
 		}
 	}
 

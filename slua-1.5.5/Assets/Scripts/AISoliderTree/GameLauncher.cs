@@ -6,7 +6,7 @@ public class GameLauncher : MonoBehaviour {
 
 	// Use this for initialization
 	private static GameLauncher instance;
-	private List<GameObject> enemyList;
+	public List<GameObject> enemyList;
 
 	public List<GameObject> enemyListPostion;
 
@@ -20,7 +20,7 @@ public class GameLauncher : MonoBehaviour {
 		return instance;
 	}
 
-	void initEnemy(){
+	public virtual void initEnemy(){
 		
 		enemyList.Clear ();
 		foreach (GameObject enemyPos in enemyListPostion) {

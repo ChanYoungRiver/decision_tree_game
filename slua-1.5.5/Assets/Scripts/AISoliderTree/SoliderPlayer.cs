@@ -5,12 +5,23 @@ using Game.AIBehaviorTree;
 using DG.Tweening;
 //using UnityEngine.Rigidbody;
 
+public enum SoliderGroup
+{
+	A,
+	B,
+	C,
+}
+
+
 public class SoliderPlayer : BInput {
 
+
+	public SoliderGroup soliderGroup = SoliderGroup.A;
+
 	public PlayerController m_playerController;
-	private Vector2 dir=Vector2.up;
+//	private Vector2 dir=Vector2.up;
 	public int hp = 100;
-	private float speed = 300.0f;
+	protected float speed = 300.0f;
 	private SafeSpaceScript safeSpaceScript;
 	private List<GameObject> bulletList = new List<GameObject> ();
 
@@ -89,7 +100,7 @@ public class SoliderPlayer : BInput {
 	}
 
 	//范围内是否存在敌人
-	public bool NearbyExistEnemy(){
+	public virtual bool  NearbyExistEnemy(){
 		return safeSpaceScript.isEnemyInSight;
 	}
 
@@ -146,6 +157,10 @@ public class SoliderPlayer : BInput {
 //		});
 		moveBackTweener.SetEase (Ease.Linear);
 
+	}
+
+	public virtual void Escape(){
+		
 	}
 
 }

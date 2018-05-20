@@ -52,7 +52,29 @@ namespace Game.AIBehaviorTree
 				BTree bt = new BTree();
 				JsonData data = json[i];
 				bt.ReadJson(data);
-				this.m_mapTree.Add(bt.m_strName , bt);
+				if (!this.m_mapTree.ContainsKey(bt.m_strName))
+				{
+					this.m_mapTree.Add(bt.m_strName , bt);
+				}
+
+			}
+		}
+
+		public void Load(string jsontxt,int index)
+		{
+			JsonData json = JsonMapper.ToObject(jsontxt);
+			json = json["trees"];
+			int count = json.Count;
+			for(int i = 0 ; i<count ; i++)
+			{
+				BTree bt = new BTree();
+				JsonData data = json[i];
+				bt.ReadJson(data);
+				if (!this.m_mapTree.ContainsKey(bt.m_strName+index))
+				{
+					this.m_mapTree.Add(bt.m_strName+index , bt);
+				}
+
 			}
 		}
 

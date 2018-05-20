@@ -2,7 +2,7 @@
 	"trees":
 	[
 		{
-			"name":"test_tree","node":
+			"name":"tree2","node":
 			{
 				"type":"Game.AIBehaviorTree.BNodeSequence",
 				"name":"sequence",

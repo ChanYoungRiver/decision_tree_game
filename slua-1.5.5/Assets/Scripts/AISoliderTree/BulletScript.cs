@@ -8,9 +8,11 @@ public class BulletScript : MonoBehaviour {
 	private float speed = 5.0f;
 	public int damage = 20;
 	public Tweener tweener = null;
+	public bool isFinish = false;
+	public AIPlayerGroup bulleGroup;
 	// Use this for initialization
 	void Start () {
-		
+		isFinish = false;
 	}
 	
 	// Update is called once per frame
@@ -38,10 +40,11 @@ public class BulletScript : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collider2D){
 //		Debug.Log ("BulletScript1"+collider2D.gameObject.name); 
-		EnemySoliderPlayer enemyPlayer = collider2D.GetComponent<EnemySoliderPlayer> ();
-		if (enemyPlayer != null) {
+		AIPlayer enemyPlayer = collider2D.GetComponent<AIPlayer> ();
+		if (enemyPlayer != null && enemyPlayer.belongGroup != bulleGroup) {
 //			Debug.Log ("BulletScript2"+collider2D.gameObject.name); 
 //			this.transform.GetComponent<BulletScript> ().enabled = false;
+			isFinish = true;
 			if (tweener!=null){
 				tweener.Kill ();
 				tweener = null;
