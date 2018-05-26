@@ -34,7 +34,7 @@ public class AIPlayer : BInput {
 
 	public Vector3 moveTarget;
 
-	private GameLauncher4 gameLauncher4;
+	protected GameLauncher4 gameLauncher4;
 
 	protected Tweener moveRoundTweener;
 
@@ -59,20 +59,20 @@ public class AIPlayer : BInput {
 	}
 
 
-	public void Die(){
+	public virtual void Die(){
 		isDie = true;
 	}
 
-	public bool IsBackHome(){
+	public virtual bool IsBackHome(){
 		return false;
 	}
 
-	public void MoveBackHome(){
+	public virtual void MoveBackHome(){
 		isMoveToHome = true;
 	}
 	//敌人是否在视野范围内
-	public bool isEnemyInView(){
-
+	public virtual bool isEnemyInView(){
+		Debug.LogError ("敌人是否isEnemyInView在视野范围内");
 		foreach (GameObject enemy in gameLauncher4.aiPlayerList) 
 		{
 			AIPlayer aIPlayer = enemy.GetComponent<AIPlayer>();
@@ -90,7 +90,7 @@ public class AIPlayer : BInput {
 	}
 
 	//敌人在射击范围内
-	public bool isEnemyInShootDistance(){
+	public virtual bool isEnemyInShootDistance(){
 
 		foreach (GameObject enemy in gameLauncher4.aiPlayerList) 
 		{
@@ -111,7 +111,7 @@ public class AIPlayer : BInput {
 	}
 
 	//执行射击
-	public void Shoot(){
+	public virtual void Shoot(){
 
 		if (inShootDistanceEnemyObj != null) {
 			ammoNum--;
@@ -133,7 +133,7 @@ public class AIPlayer : BInput {
 
 	}
 	//装填子弹
-	public void AddAmmo(){
+	public virtual void AddAmmo(){
 
 		refreshStateLabel ("装填子弹");
 		StartCoroutine (WaitAndAdmmo ());
@@ -145,7 +145,7 @@ public class AIPlayer : BInput {
 		ammoNum = 5;
 	} 
 
-	private void stopMove(){
+	public virtual void stopMove(){
 		if (moveRoundTweener != null) {
 			moveRoundTweener.Kill ();
 			moveRoundTweener = null;
@@ -153,7 +153,7 @@ public class AIPlayer : BInput {
 	}
 
 	//追击敌人
-	public void Pursue(){
+	public virtual void Pursue(){
 		Debug.LogError ("追击敌人");
 		if(inViewEnemyObj!=null){//追击到可射击的范围内
 			Vector3 pursueDir = inViewEnemyObj.gameObject.transform.position - this.transform.position;//追击方向
@@ -164,7 +164,7 @@ public class AIPlayer : BInput {
 	}
 
 	//移动到指定地点
-	public void MoveToTarget(){
+	public virtual void MoveToTarget(){
 
 		stopMove ();
 
@@ -184,12 +184,12 @@ public class AIPlayer : BInput {
 
 	}
 
-	public void rest(){
+	public virtual void rest(){
 
 		refreshStateLabel ("空闲中");
 	}
 
-	public void RandomMove(){
+	public virtual void RandomMove(){
 		refreshStateLabel ("随机移动");
 
 		Transform origialTrans = this.GetComponent<RectTransform> ();
@@ -240,7 +240,7 @@ public class AIPlayer : BInput {
 		}
 	}
 
-	private void refreshStateLabel(string str)
+	public virtual void refreshStateLabel(string str)
 	{
 		foreach (var child in this.gameObject.GetComponentsInChildren<Component>()) 
 		{

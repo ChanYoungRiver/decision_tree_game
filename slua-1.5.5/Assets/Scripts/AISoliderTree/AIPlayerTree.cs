@@ -50,6 +50,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ActionAIDie");
 			AIPlayer tinput = input as AIPlayer;
 			if ( tinput.hp>0) {
 				return ActionResult.FAILURE;
@@ -76,6 +77,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ConditionAINotEnoughHP");
 			AIPlayer tinput = input as AIPlayer;
 			Debug.Log ("ConditionAINotEnoughHP"+tinput.hp+" "+HP);
 			if ( tinput.hp<=HP) {
@@ -99,6 +101,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ConditionAIHasMoveToTarget");
 			AIPlayer tinput = input as AIPlayer;
 			if (!tinput.isMove) {
 				Debug.Log ("ConditionAIHasMoveToTarget SUCCESS");
@@ -130,6 +133,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ActionAIMoveToTarget");
 			AIPlayer tinput = input as AIPlayer;
 			 if (tinput.isMove==false ) {
 				return ActionResult.SUCCESS;
@@ -158,11 +162,17 @@ namespace Game.AIBehaviorTree
 
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ActionAIRandomMove");
 			AIPlayer tinput = input as AIPlayer;
 			if (tinput.isMove==false ) {
 				return ActionResult.SUCCESS;
 			} else {
-				return ActionResult.RUNNING;
+				if (tinput.isEnemyInView ()) {
+					return ActionResult.FAILURE;
+				} else {
+					return ActionResult.RUNNING;
+				}
+
 			}
 		}
 	}
@@ -186,6 +196,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ActionAIMoveToHome");
 			Debug.Log ("ActionAIMoveToHome");
 			AIPlayer tinput = input as AIPlayer;
 			if ( tinput.IsBackHome()) {
@@ -213,7 +224,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
-			
+			Debug.Log ("ConditionAIHasEnemyInView SUCCESS视野内是否存在敌人");
 			AIPlayer tinput = input as AIPlayer;
 			if ( tinput.isEnemyInView()) {
 				Debug.Log ("ConditionAIHasEnemyInView SUCCESS");
@@ -238,6 +249,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ConditionAIHasAmmo");
 			AIPlayer tinput = input as AIPlayer;
 			if ( tinput.ammoNum>0) {
 				return ActionResult.SUCCESS;
@@ -270,6 +282,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ActionAIAddAmmo");
 			AIPlayer tinput = input as AIPlayer;
 			if(Time.time - this.m_ftime > tinput.loadAmmoTime)
 				this.over = true;
@@ -293,6 +306,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ConditionAICanShoot");
 			AIPlayer tinput = input as AIPlayer;
 			if ( tinput.isEnemyInShootDistance()) {
 				return ActionResult.SUCCESS;
@@ -324,6 +338,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ActionAIShoot");
 			AIPlayer tinput = input as AIPlayer;
 			if(Time.time - this.m_ftime > tinput.shootSpace)
 				this.over = true;
@@ -351,6 +366,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ActionAIPursue");
 			AIPlayer tinput = input as AIPlayer;
 			if(!tinput.isMove)
 				return ActionResult.SUCCESS;
@@ -373,6 +389,7 @@ namespace Game.AIBehaviorTree
 		public override ActionResult Excute (BInput input)
 		{
 			AIPlayer tinput = input as AIPlayer;
+			Debug.LogError ("ConditionAIRandomChance");
 			int value = Random.Range (0, 100);
 			if ( value>90) {
 				Debug.Log ("ConditionAIRandomChance SUCCESS");
@@ -409,6 +426,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
+			Debug.LogError ("ActionAIIdle");
 			AIPlayer tinput = input as AIPlayer;
 			if(Time.time - this.m_ftime > tinput.resetTime||this.over==true)
 				this.over = true;
