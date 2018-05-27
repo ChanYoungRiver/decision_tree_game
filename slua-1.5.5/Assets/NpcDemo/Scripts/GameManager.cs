@@ -112,7 +112,7 @@ public class GameManager : MonoBehaviour {
     //判断敌人与主角的距离
     void AttackDistance()
     {
-        ThisLineSight.Sensitity = LineSight.SightSensitivity.STRICT;
+        //ThisLineSight.Sensitity = LineSight.SightSensitivity.STRICT;
         if (ThisLineSight.CanSeeTarget || Vector3.Distance(m_transform.position, enemy.transform.position) <= 5.0f)
         {
 

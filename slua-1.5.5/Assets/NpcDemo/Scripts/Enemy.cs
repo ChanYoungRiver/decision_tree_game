@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour {
     float m_moveSpeed = 3.5f;
     float m_rotSpeed = 30;  //敌人旋转速度
     float m_timer = 2;//计时器
+    float m_attackTime = 1;//攻击计时器
     public int m_life =1000;//敌人生命值
     Vector3 originalPosition;//敌人初始位置
     protected EnemySpawn m_spawn;
@@ -58,7 +59,8 @@ public class Enemy : MonoBehaviour {
                 return;
             if (Vector3.Distance(m_transform.position, m_player.transform.position) <= 0.5f)
             {
-                m_ani.SetBool("attack", true);
+                // m_ani.SetBool("attack", true);
+                AIAttack();
             }
             else
             {
@@ -80,9 +82,9 @@ public class Enemy : MonoBehaviour {
             }
             if (Vector3.Distance(m_transform.position, m_player.m_transform.position) <= 1.5f)
             {
-               // m_agent.isStopped = true;
-                m_ani.SetBool("attack", true);
-  
+                // m_agent.isStopped = true;
+                // m_ani.SetBool("attack", true);
+                AIAttack();
             }
         }
         // 攻击状态  
@@ -129,6 +131,18 @@ public class Enemy : MonoBehaviour {
         if (m_life <= 0)
         {
             m_ani.SetBool("death", true);
+        }
+    }
+    //攻击士兵
+    public void AIAttack()
+    {
+        m_ani.SetBool("attack", true);
+
+        transform.LookAt(m_player.transform);
+        m_attackTime -= Time.deltaTime;
+        if (m_attackTime <= 0)
+        {
+            m_player.OnDamage(1);
         }
     }
     //转向目标点

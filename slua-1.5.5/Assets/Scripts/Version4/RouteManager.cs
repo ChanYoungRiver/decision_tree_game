@@ -6,6 +6,7 @@ public class RoutePoint {
 
 	public Vector3 pointPos;
 	public bool isPass;
+	public string pointName;
 
 }
 

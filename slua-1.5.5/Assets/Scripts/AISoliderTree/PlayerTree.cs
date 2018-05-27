@@ -146,7 +146,7 @@ namespace Game.AIBehaviorTree
 
 		public override ActionResult Excute (BInput input)
 		{
-			bool isExist = GameLauncher.GetInstance().CheckExistEnemy();
+			bool isExist = GameLauncher1.GetInstance().CheckExistEnemy();
 			if(isExist)
 			{
 //				Debug.LogError ("ConditionAliveEnemy 存在敌人");
@@ -170,7 +170,7 @@ namespace Game.AIBehaviorTree
 
 		public override ActionResult Excute (BInput input)
 		{
-			bool isExist = GameLauncher.GetInstance().CheckExistEnemy();
+			bool isExist = GameLauncher1.GetInstance().CheckExistEnemy();
 			if(!isExist)
 			{
 //				Debug.LogError ("ConditionNoAliveEnemy 存在敌人");

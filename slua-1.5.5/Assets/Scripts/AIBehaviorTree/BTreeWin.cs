@@ -49,7 +49,7 @@ public class BTreeWin : EditorWindow
 		this.m_cScrollPos = GUI.BeginScrollView(new Rect(0,0,position.width-240 , position.height) , this.m_cScrollPos , new Rect(0,0,this.maxSize.x,this.maxSize.y));
 
 		Texture2D tex1 = new Texture2D(1,1);
-		tex1.SetPixel(0,0,Color.black);
+		tex1.SetPixel(0,0,Color.yellow);
 		tex1.Apply();
 		Texture2D tex2 = new Texture2D(1,1);
 		tex2.SetPixel(0,0,Color.gray);

@@ -6,6 +6,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class Player : MonoBehaviour {
 
+
+
     public int ammoNum = 20;//子弹数量
     public int health = 999;//生命值
     public Transform m_transform;//士兵的transform
@@ -42,22 +44,47 @@ public class Player : MonoBehaviour {
         aPosition = new Vector3(-28, originalPosition.y, -37); //巡逻位置A  
         bPosition = new Vector3(34, originalPosition.y, 32); //巡逻位置B  
         currentDestination = bPosition;
+
     }
     // Update is called once per frame
     void Update()
     {
         //如果生命为0，什么也不做
         if (health <= 0)
-            Destroy(gameObject);
-        //AIPatrol();
-
-        AIShoot();
+        { Destroy(gameObject); }
+        if (ThisLineSight.CanSeeTarget)
+        {
+            AIPursue();
+           // transform.LookAt(enemy.transform);                               
+            if (Vector3.Distance(transform.position, enemy.transform.position) <= 5.0f)
+            {
+                if (Vector3.Distance(transform.position, enemy.transform.position) <= 1.5f)
+                    AIAttack();
+                else
+                    AIShoot();
+            }
+        }
+        else
+        {
+            AIPatrol();
+        }
+        if (health <= 200)
+        {
+            AIFlee();
+        }
+       
     }
+        
+    
     //巡逻动作
     public void AIPatrol()
     {
+        ThisLineSight.Sensitity = LineSight.SightSensitivity.STRICT;//设置搜索为STRICT
         agent.SetDestination(currentDestination);
         animator.SetBool("Walk", true);
+        animator.SetBool("Run", false);
+        animator.SetBool("Shoot", false);
+        animator.SetBool("Attack", false);
         if (Vector3.Distance(transform.position, currentDestination) <= 0.5f)
         {
             if (currentDestination == aPosition)//改变巡逻点
@@ -73,14 +100,24 @@ public class Player : MonoBehaviour {
     //追逐动作
     public void AIPursue()
     {
-        agent.SetDestination(enemy.transform.position);
+        agent.isStopped = true;
+        ThisLineSight.Sensitity = LineSight.SightSensitivity.LOOSE;
+        transform.LookAt(enemy.transform);
+        agent.isStopped = false;
+        agent.SetDestination(ThisLineSight.LastKnowSighting);
         animator.SetBool("Run", true);
+        animator.SetBool("Walk", false);
     }
     //逃跑动作
     public void AIFlee()
     {
-        agent.SetDestination(originalPosition);//跑回到基地
         animator.SetBool("Run", true);
+        animator.SetBool("Shoot", false);
+        animator.SetBool("Attack", false);
+        animator.SetBool("Walk", false);
+        agent.isStopped = false;
+        agent.SetDestination(originalPosition);//跑回到基地
+        
         if (Vector3.Distance(transform.position, originalPosition) <= 1.5f)
         {
             animator.SetBool("Run", false);
@@ -89,10 +126,22 @@ public class Player : MonoBehaviour {
             agent.isStopped = false;
         }
     }
+    //徒手攻击
+    public void AIAttack()
+    {
+        animator.SetBool("Attack", true);
+        animator.SetBool("Run", false);
+        animator.SetBool("Shoot", false);     
+        shootTimer -= Time.deltaTime;
+        if (shootTimer <= 0)
+        {
+           // enemy.GetComponent<Enemy>().OnDamage(1);
+            shootTimer = 0.9f;
+        }
+    }
     //射击动作
     public void AIShoot()
     {
-        //animator.SetBool("Shoot", true);
         animator.Play("Shoot");
         shootTimer -= Time.deltaTime;
         if (shootTimer <= 0)
@@ -103,7 +152,7 @@ public class Player : MonoBehaviour {
             RaycastHit info;
             // 从枪口所在位置向摄像机面向的正前方发出一条射线  
             // 该射线只与layer指定的层发生碰撞  
-            if (Physics.Raycast(muzzlePoint.position, transform.TransformDirection(Vector3.forward), out info, 100, layer))
+            if (Physics.Raycast(muzzlePoint.position, muzzlePoint.forward, out info, 10, layer))
             {
                 // 判断是否射中Tag为enemy的物体  
                 if (info.transform.tag.Equals("enemy"))
@@ -113,7 +162,7 @@ public class Player : MonoBehaviour {
                 }
             }
             // 在射中的地方释放一个粒子效果  
-            Instantiate(fx, info.point, info.transform.rotation);
+           // Instantiate(fx, info.point, info.transform.rotation);
         }
     }
     //死亡判断
@@ -151,4 +200,5 @@ public class Player : MonoBehaviour {
         }
         lab_ammoNum.text = ammoNum.ToString() + "/20";
     }
+
 }

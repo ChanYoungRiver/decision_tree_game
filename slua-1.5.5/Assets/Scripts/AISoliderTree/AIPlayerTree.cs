@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 namespace Game.AIBehaviorTree
 {
 	//是否存活
 	public class ConditionAIISAlive : BNodeCondition
 	{
 
-		public ConditionAIISAlive()
-			:base()
+		public ConditionAIISAlive():base()
 		{
 			this.m_strName = "ConditionAIISAlive";
 		}
@@ -78,9 +76,9 @@ namespace Game.AIBehaviorTree
 		public override ActionResult Excute (BInput input)
 		{
 			Debug.LogError ("ConditionAINotEnoughHP");
-			AIPlayer tinput = input as AIPlayer;
+			AI3DPlayer tinput = input as AI3DPlayer;
 			Debug.Log ("ConditionAINotEnoughHP"+tinput.hp+" "+HP);
-			if ( tinput.hp<=HP) {
+			if ( tinput.isDangerousState()) {
 				return ActionResult.SUCCESS;
 			}else {
 				return ActionResult.FAILURE;
@@ -163,11 +161,11 @@ namespace Game.AIBehaviorTree
 		public override ActionResult Excute (BInput input)
 		{
 			Debug.LogError ("ActionAIRandomMove");
-			AIPlayer tinput = input as AIPlayer;
+			AI3DPlayer tinput = input as AI3DPlayer;
 			if (tinput.isMove==false ) {
 				return ActionResult.SUCCESS;
 			} else {
-				if (tinput.isEnemyInView ()) {
+				if (tinput.isEnemyInView ()||tinput.routePoint==null) {
 					return ActionResult.FAILURE;
 				} else {
 					return ActionResult.RUNNING;
@@ -329,7 +327,8 @@ namespace Game.AIBehaviorTree
 
 		public override void OnEnter (BInput input)
 		{
-			AIPlayer tinput = input as AIPlayer;
+			Debug.LogError ("ActionAIShoot2");
+			AI3DPlayer tinput = input as AI3DPlayer;
 			this.m_ftime = Time.time;
 			this.over = false;
 			tinput.Shoot ();
@@ -338,7 +337,7 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
-			Debug.LogError ("ActionAIShoot");
+			Debug.LogError ("ActionAIShoot1");
 			AIPlayer tinput = input as AIPlayer;
 			if(Time.time - this.m_ftime > tinput.shootSpace)
 				this.over = true;
@@ -370,7 +369,13 @@ namespace Game.AIBehaviorTree
 			AIPlayer tinput = input as AIPlayer;
 			if(!tinput.isMove)
 				return ActionResult.SUCCESS;
-			return ActionResult.RUNNING;
+			if (tinput.isEnemyInShootDistance()) {
+				return ActionResult.FAILURE;
+			} else {
+				return ActionResult.RUNNING;
+			}
+
+
 		}
 	}
 

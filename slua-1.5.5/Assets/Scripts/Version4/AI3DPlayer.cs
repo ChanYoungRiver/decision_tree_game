@@ -5,29 +5,45 @@ using UnityEngine.UI;
 using Game.AIBehaviorTree;
 using DG.Tweening;
 using UnityEngine.AI;
+[RequireComponent(typeof(NavMeshAgent))]
 
 public class AI3DPlayer : AIPlayer {
 
+	public string manState="";
 
+	protected int dangersHP = 100;
 	RouteManager routeManager;
-	private NavMeshAgent agent;//寻路组件
 	private Animator animator;//动画组件
-//	private NavMeshAgent agent;//寻路组件
-	private LineSightV4 ThisLineSight;//视野
-	Vector3 currentDestination = Vector3.zero;//士兵现在要巡逻的位置
-	Vector3 aPosition = Vector3.zero;//巡逻点A的位置
-	Vector3 bPosition = Vector3.zero;//巡逻点B的位置
+	private NavMeshAgent agent;//寻路组件
+    public Transform m_transform;//士兵的transform
+    private float shootTimer = 0.9f;//射击间隔时间器
+    private LineSightV4 ThisLineSight;//视野
+    public Transform muzzlePoint; // 枪口的Transform组件
+    public LayerMask layer; // 射击时射线能射到的碰撞层  
+    public Transform fx; // 射中目标后的粒子效果
+	public int SOLIDER_INDEX;
+    Vector3 currentDestination = Vector3.zero;//士兵现在要巡逻的位置
 
-	RoutePoint routePoint;
+	public string routeGroup = "RouteListGroupA";
+
+	public RoutePoint routePoint;
 
 //	protected GameLauncher4 gameLauncher4;
 
 	void Start () {
-		//gameLauncher4 = GameLauncher4.GetInstance();
-		agent = GetComponent<NavMeshAgent>();//导航代理
+        //gameLauncher4 = GameLauncher4.GetInstance();
+        m_transform = this.transform;
+		SOLIDER_INDEX = GameLauncher5.getManIndex ();
+        agent = GetComponent<NavMeshAgent>();//导航代理
 		initConfig ();
 		CreatePointLineList ();
-	}
+        muzzlePoint = GameObject.Find("MP40GermanmachineGun").GetComponent<Transform>();//枪
+
+		animator = this.GetComponent<Animator>();
+		ThisLineSight = GetComponent<LineSightV4>();
+		ThisLineSight.manGroup = belongGroup;
+		ThisLineSight.solideIndex = SOLIDER_INDEX;
+    }
 
 	public override void initConfig(){
 		belongGroup = AIPlayerGroup.A;
@@ -41,16 +57,26 @@ public class AI3DPlayer : AIPlayer {
 
 //		Transform labObj = this.transform.Find ("lab_hp");
 //		labObj.GetComponent<Text> ().text = "HP:"+hp;
+		if (routePoint!=null && Vector3.Distance(transform.position, routePoint.pointPos) <= 0.5f)
+		{
+			routePoint.isPass = true;
+			stopMove ();
+			routePoint = null;
+		}
+
+//		Transform labObj = this.transform.Find ("lab_hp");
+//		labObj.GetComponent<Text> ().text = "HP:"+hp;
+
 	}
 
 	void Awake()
 	{
-		animator = this.GetComponent<Animator>();
-		ThisLineSight = GetComponent<LineSightV4>();
+
 	}
 
 	public override void Die(){
 		isDie = true;
+		this.gameObject.SetActive (false);
 	}
 
 	public override bool IsBackHome(){
@@ -82,30 +108,77 @@ public class AI3DPlayer : AIPlayer {
 		return false;
 	}
 
-	//执行射击
-	public override void Shoot(){
+    //执行射击
+    public override void Shoot()
+    {
+		refreshStateLabel ("射击");
+    	if(ThisLineSight.enemyObj!=null)
+        {
+			Debug.LogError ("ThisLineSight.enemyObj."+ThisLineSight.enemyObj.name+" "+this.transform.name);
+			Transform realPhy = ThisLineSight.enemyObj.transform.parent.Find("EyePoint");
+			transform.LookAt(realPhy);
 
-//		if (inShootDistanceEnemyObj != null) {
-//			ammoNum--;
-//
-//			refreshStateLabel ("执行射击 子弹数量:"+ammoNum);
-//
-//			//.1创建子弹
-//			GameObject bulletObject = Instantiate(Resources.Load ("Prefab/Bullet")) as GameObject;
-//
-//			bulletObject.GetComponent<BulletScript>().bulleGroup = belongGroup;
-//			bulletObject.transform.SetParent (  this.transform );
-//			bulletObject.transform.localPosition = new Vector3 (0,0,0);
-//			gameLauncher4.pushNewBullet (bulletObject);
-//
-//			bulletObject.GetComponent<BulletScript> ().RuningBullet ( this.transform,inShootDistanceEnemyObj.transform );
-//
-//		}
+			Debug.LogError("shoot function");
+			animator.SetBool("Walk",false);
+			animator.SetBool("Run",false);
+			animator.Play("Shoot");
+			//animator.SetBool("Shoot", true);
+
+			//		shootTimer -= Time.deltaTime;
+			//        if (shootTimer <= 0)
+			//        {
+			//SetAmmo(1);
+			//            shootTimer = 0.9f;
+			// 用一个RaycastHit对象保存射线的碰撞结果  
+			RaycastHit info;
+			// 从枪口所在位置向摄像机面向的正前方发出一条射线  
+			// 该射线只与layer指定的层发生碰撞  
+			Transform origal = this.transform.Find ("EyePoint");
+				
+
+			bool hit = Physics.Raycast(origal.position, (realPhy.position-origal.position).normalized*1000  , out info, 1000, layer);
+
+			Debug.Log(info.point);
+			Debug.DrawLine (origal.position,(realPhy.position-origal.position).normalized*1000 );
 
 
-	}
-	//装填子弹
-	public void AddAmmo(){
+			GameObject bulletObject = Instantiate(Resources.Load ("Prefab/Bullet3D")) as GameObject;
+
+			bulletObject.transform.position = origal.position;
+			bulletObject.GetComponent<BulletScript3D> ().bulleGroup = belongGroup;
+			bulletObject.GetComponent<BulletScript3D> ().RuningBullet (origal.position, origal.position+(realPhy.position-origal.position).normalized*1000 );
+			GameLauncher5.GetInstance ().buffetList.Add (bulletObject);
+
+			if (hit)
+			{
+				
+				Debug.LogError ("大众敌人了-1@"+info.collider.transform.name);
+				// 判断是否射中Tag为enemy的物体  
+				if (info.collider.transform.tag.Equals("EnemyPhy"))
+				{
+					Debug.LogError ("大众敌人了1");
+					AI3DPlayer aIPlayer = info.transform.GetComponent<AI3DPlayer>();
+					if(aIPlayer.belongGroup!=belongGroup)
+					{
+						aIPlayer.hp = aIPlayer.hp - 20;
+						Debug.LogError ("大众敌人了2");
+					}
+					// 敌人减少生命  
+					//info.transform.GetComponent<Enemy>().OnDamage(1);
+					//                    Instantiate(fx, info.point, info.transform.rotation);
+				}
+				//            }
+				// 在射中的地方释放一个粒子效果  
+
+				Debug.Log(info.point);
+
+			}
+
+        }
+     
+        //装填子弹
+    }
+        public void AddAmmo(){
 
 		refreshStateLabel ("装填子弹");
 		StartCoroutine (WaitAndAdmmo ());
@@ -124,19 +197,37 @@ public class AI3DPlayer : AIPlayer {
 //		}
 //		agent.SetDestination(currentDestination);
 //		animator.SetBool("Walk", true);
-		agent.enabled = false;
-		isMove = false;
+		if (isMove)
+		{
+			agent.isStopped = true;
+			isMove = false;
+		}
+
 
 	}
 
 	//追击敌人
 	public override void Pursue(){
-		Debug.LogError ("追击敌人");
+
+		refreshStateLabel ("追击敌人");
+//		Debug.LogError ("追击敌人");
 //		if(inViewEnemyObj!=null){//追击到可射击的范围内
 //			Vector3 pursueDir = inViewEnemyObj.gameObject.transform.position - this.transform.position;//追击方向
 //			moveTarget = this.transform.position + pursueDir.normalized*chaseCell;
 //			MoveToTarget ();
 //		}
+		agent.isStopped = true;
+        ThisLineSight.Sensitity = LineSightV4.SightSensitivity.LOOSE;
+        if(ThisLineSight.enemyObj!=null)
+        {
+        	transform.LookAt(ThisLineSight.enemyObj.transform);
+        }
+        isMove = true;
+       
+        agent.SetDestination(ThisLineSight.LastKnowSighting);
+         agent.isStopped = false;
+        animator.SetBool("Run", true);
+        animator.SetBool("Walk", false);
 
 	}
 
@@ -144,20 +235,11 @@ public class AI3DPlayer : AIPlayer {
 	public override void MoveToTarget(){
 
 		stopMove ();
-
+		agent.isStopped = false;
 		isMove = true;
 		agent.enabled = true;
 		agent.SetDestination(currentDestination);
 		animator.SetBool("Walk", true);
-		if (Vector3.Distance(transform.position, currentDestination) <= 0.5f)
-		{
-			isMove = false;
-		}
-
-		if (routePoint!=null && Vector3.Distance(transform.position, routePoint.pointPos) <= 0.5f)
-		{
-			routePoint.isPass = true;
-		}
 
 
 	}
@@ -188,7 +270,8 @@ public class AI3DPlayer : AIPlayer {
 //			}
 //
 //		}
-		GameObject.Find("lab_state1").GetComponent<Text>().text = str;
+//		GameObject.Find("lab_state1").GetComponent<Text>().text = str;
+		this.manState = str;
 	}
 
 
@@ -200,7 +283,7 @@ public class AI3DPlayer : AIPlayer {
 		}else{
 			refreshStateLabel ("随机移动");
 			Debug.Log ("随机移动");
-			RoutePoint routePoint = routeManager.getCurPoint ();
+			routePoint = routeManager.getCurPoint ();
 			currentDestination = routePoint.pointPos;
 			MoveToTarget ();	
 		}
@@ -211,7 +294,7 @@ public class AI3DPlayer : AIPlayer {
 
 
 	public void CreatePointLineList(){
-		GameObject routeListObj =  GameObject.Find ("RouteList");
+		GameObject routeListObj =  GameObject.Find (routeGroup);
 		routeManager = new RouteManager ();
 		int i=0;  
 		while(i<routeListObj.transform.childCount){  
@@ -224,12 +307,17 @@ public class AI3DPlayer : AIPlayer {
 				Debug.LogError ("child: "+j+" "+childNode.name); 
 				RoutePoint routePoint = new RoutePoint ();
 				routePoint.pointPos = childNode.position;
+				routePoint.pointName = childNode.name;
 				routePointList.pointList.Add (routePoint);
 				j++;
 			}
 			i++;
 			routeManager.routeList.Add (routePointList);
 		}  
+	}
+
+	public bool isDangerousState(){
+		return hp <= dangersHP;
 	}
 
 }

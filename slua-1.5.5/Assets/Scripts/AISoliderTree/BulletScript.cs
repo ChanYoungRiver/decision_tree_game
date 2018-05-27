@@ -6,10 +6,10 @@ using DG.Tweening;
 public class BulletScript : MonoBehaviour {
 
 	private float speed = 5.0f;
-	public int damage = 20;
-	public Tweener tweener = null;
+	public int damage = 20;//伤害值
+	public Tweener tweener = null;//动画
 	public bool isFinish = false;
-	public AIPlayerGroup bulleGroup;
+	public AIPlayerGroup bulleGroup;//子弹主人
 	// Use this for initialization
 	void Start () {
 		isFinish = false;
@@ -30,12 +30,10 @@ public class BulletScript : MonoBehaviour {
 		//3.飞行距离
 		float dis = (origial.position-target.position).magnitude ;//计算两点间的距离
 		if (tweener!=null){
-			tweener.Kill ();
+			tweener.Kill ();//结束动画
 		}
-		tweener = this.GetComponent<RectTransform> ().DOMove( new Vector3(target_.x,target_.y,0)  , dis/speed );
-		tweener.SetEase (Ease.Linear);
-
-
+		tweener = this.GetComponent<RectTransform> ().DOMove( new Vector3(target_.x,target_.y,0)  , dis/speed );//时间
+		tweener.SetEase (Ease.Linear);//设置类型
 	}
 
 	void OnTriggerEnter2D(Collider2D collider2D){
