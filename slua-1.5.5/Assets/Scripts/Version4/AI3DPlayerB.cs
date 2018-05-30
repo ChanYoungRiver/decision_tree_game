@@ -7,6 +7,6 @@ public class AI3DPlayerB : AI3DPlayer {
 	public override void initConfig(){
 		belongGroup = AIPlayerGroup.B;
 		routeGroup = "RouteListGroupB";
-		dangersHP = 40;
+		dangersHP = 80;
 	}
 }

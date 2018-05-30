@@ -35,6 +35,10 @@ public class GroupItemHP : MonoBehaviour {
 		Transform lab_state = this.transform.Find ("lab_state");
 		lab_state.GetComponent<Text> ().text = ""+player.manState;
 
+		Transform labBullet = this.transform.Find ("lab_bullet_num");
+		labBullet.GetComponent<Text> ().text = ""+player.ammoNum;
+
+
 	}
 
 }

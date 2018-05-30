@@ -247,7 +247,6 @@ public class AIPlayer : BInput {
 			if (child.name == "lab_state") {
 				child.GetComponent<Text> ().text = str;
 			}
-
 		}
 	}
 

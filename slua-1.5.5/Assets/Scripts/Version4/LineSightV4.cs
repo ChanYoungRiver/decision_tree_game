@@ -105,7 +105,7 @@ public class LineSightV4 : MonoBehaviour {
 		Target = null;
         return false;
     }
-    void UpdateSight()//与ClearLineofSight函数结合，判断敌人是否在无遮挡的视野范围內
+    public void UpdateSight()//与ClearLineofSight函数结合，判断敌人是否在无遮挡的视野范围內
     {
         switch(Sensitity)
         {
@@ -138,6 +138,11 @@ public class LineSightV4 : MonoBehaviour {
 //		if (!other.CompareTag("Player")) return;
 //        CanSeeTarget = false;
 //		enemyObj = null;
+    	// Debug.LogError("敌人离开该区域"+other.transform.name);
+    	if (other.transform.CompareTag ("EnemyPhy")&&other.transform.parent!=this.transform) {
+			//UpdateSight();
+			CanSeeTarget = false;
+		}
     }
     // Use this for initialization
     void Start () {

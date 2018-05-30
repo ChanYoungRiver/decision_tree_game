@@ -10,6 +10,8 @@ public class GameLauncher5 : MonoBehaviour {
 	public List<GameObject> enemyListPostion;
 	public List<GameObject> buffetList;
 
+	string[] nameList = {"daniu","erhu"};
+
 	public static int MANX_INDEX = 0;
 	// Use this for initialization
 	void Start () {
@@ -36,7 +38,10 @@ public class GameLauncher5 : MonoBehaviour {
 		aiObject.transform.position = new Vector3(-61.89f,0,65.72f);
 		aiPlayerList.Add (aiObject);
 		//		}
-
+			AI3DPlayer aIPlayer1 = aiObject.transform.GetComponent<AI3DPlayer>();
+			aIPlayer1.oriPosition = GameObject.Find("orig");
+			aIPlayer1.soldierName = nameList[1];
+			aIPlayer1.NameLabel();
 
 		//创建队伍B
 		foreach (GameObject enemyPos in enemyListPostion) {
@@ -44,6 +49,11 @@ public class GameLauncher5 : MonoBehaviour {
 			enemyObject.transform.position = enemyPos.transform.position;
 			aiPlayerList.Add (enemyObject);
 			enemyPos.SetActive (false);
+
+			AI3DPlayer aIPlayer = enemyObject.transform.GetComponent<AI3DPlayer>();
+			aIPlayer.oriPosition = GameObject.Find("GroupBBase");
+			aIPlayer.soldierName = nameList[1];
+			aIPlayer.NameLabel();
 		}
 
 		foreach(GameObject obj in aiPlayerList)
@@ -69,16 +79,28 @@ public class GameLauncher5 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		bool isNeedUpdateView = false;
 		foreach(GameObject obj in aiPlayerList)
 		{
 			AI3DPlayer aIPlayer = obj.transform.GetComponent<AI3DPlayer>();
-			if (aIPlayer.hp <= 0) 
+			if (aIPlayer.isDie) 
 			{
 				aiPlayerList.Remove (aIPlayer.gameObject);
 				Destroy (aIPlayer.gameObject);
+				isNeedUpdateView = true; 
 				break;
 			}
 		}
+
+		if (isNeedUpdateView)
+		{
+			foreach(GameObject obj in aiPlayerList)
+			{
+				AI3DPlayer aIPlayer = obj.transform.GetComponent<AI3DPlayer>();
+				aIPlayer.updateView();
+			}
+		}
+
 
 		foreach(GameObject obj in buffetList)
 		{

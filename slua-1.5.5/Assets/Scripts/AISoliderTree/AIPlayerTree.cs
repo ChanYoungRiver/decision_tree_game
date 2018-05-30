@@ -17,8 +17,34 @@ namespace Game.AIBehaviorTree
 		public override ActionResult Excute (BInput input)
 		{
 			AIPlayer tinput = input as AIPlayer;
+			Debug.LogError ("ConditionAIISAlive"+tinput.belongGroup);
 			Debug.Log ("ConditionAIISAlive"+tinput.hp);
 			if ( tinput.hp>0) {
+				return ActionResult.SUCCESS;
+			}else {
+				return ActionResult.FAILURE;
+			}
+
+
+		}
+	}
+
+
+	public class ConditionAIISDie : BNodeCondition
+	{
+
+		public ConditionAIISDie():base()
+		{
+			this.m_strName = "ConditionAIISDie";
+		}
+			
+		//excute
+		public override ActionResult Excute (BInput input)
+		{
+			AIPlayer tinput = input as AIPlayer;
+			Debug.Log ("ConditionAIISDie"+tinput.hp);
+			Debug.LogError ("ConditionAIISDie"+tinput.belongGroup);
+			if ( tinput.hp<=0) {
 				return ActionResult.SUCCESS;
 			}else {
 				return ActionResult.FAILURE;
@@ -49,7 +75,8 @@ namespace Game.AIBehaviorTree
 		public override ActionResult Excute (BInput input)
 		{
 			Debug.LogError ("ActionAIDie");
-			AIPlayer tinput = input as AIPlayer;
+			AI3DPlayer tinput = input as AI3DPlayer;
+			Debug.LogError ("ConditionAIISDie"+tinput.belongGroup);
 			if ( tinput.hp>0) {
 				return ActionResult.FAILURE;
 			}else if (tinput.isDieActionRun==false ) {
@@ -77,6 +104,7 @@ namespace Game.AIBehaviorTree
 		{
 			Debug.LogError ("ConditionAINotEnoughHP");
 			AI3DPlayer tinput = input as AI3DPlayer;
+			Debug.LogError ("ConditionAINotEnoughHP"+tinput.belongGroup);
 			Debug.Log ("ConditionAINotEnoughHP"+tinput.hp+" "+HP);
 			if ( tinput.isDangerousState()) {
 				return ActionResult.SUCCESS;
@@ -101,6 +129,7 @@ namespace Game.AIBehaviorTree
 		{
 			Debug.LogError ("ConditionAIHasMoveToTarget");
 			AIPlayer tinput = input as AIPlayer;
+			Debug.LogError ("ConditionAIHasMoveToTarget"+tinput.belongGroup);
 			if (!tinput.isMove) {
 				Debug.Log ("ConditionAIHasMoveToTarget SUCCESS");
 				return ActionResult.SUCCESS;
@@ -133,6 +162,7 @@ namespace Game.AIBehaviorTree
 		{
 			Debug.LogError ("ActionAIMoveToTarget");
 			AIPlayer tinput = input as AIPlayer;
+			Debug.LogError ("ActionAIMoveToTarget"+tinput.belongGroup);
 			 if (tinput.isMove==false ) {
 				return ActionResult.SUCCESS;
 			} else {
@@ -162,6 +192,7 @@ namespace Game.AIBehaviorTree
 		{
 			Debug.LogError ("ActionAIRandomMove");
 			AI3DPlayer tinput = input as AI3DPlayer;
+			Debug.LogError ("ActionAIRandomMove"+tinput.belongGroup);
 			if (tinput.isMove==false ) {
 				return ActionResult.SUCCESS;
 			} else {
@@ -187,7 +218,7 @@ namespace Game.AIBehaviorTree
 
 		public override void OnEnter (BInput input)
 		{
-			AIPlayer tinput = input as AIPlayer;
+			AI3DPlayer tinput = input as AI3DPlayer;
 			tinput.MoveBackHome ();
 		}
 
@@ -197,7 +228,8 @@ namespace Game.AIBehaviorTree
 			Debug.LogError ("ActionAIMoveToHome");
 			Debug.Log ("ActionAIMoveToHome");
 			AIPlayer tinput = input as AIPlayer;
-			if ( tinput.IsBackHome()) {
+			Debug.LogError ("ActionAIMoveToHome"+tinput.belongGroup);
+			if ( tinput.IsBackHome()||tinput.hp<=0) {
 				return ActionResult.FAILURE;
 			}else if (tinput.isMoveToHome==false ) {
 				return ActionResult.SUCCESS;
@@ -224,6 +256,7 @@ namespace Game.AIBehaviorTree
 		{
 			Debug.Log ("ConditionAIHasEnemyInView SUCCESS视野内是否存在敌人");
 			AIPlayer tinput = input as AIPlayer;
+			Debug.LogError ("ConditionAIHasEnemyInView"+tinput.belongGroup);
 			if ( tinput.isEnemyInView()) {
 				Debug.Log ("ConditionAIHasEnemyInView SUCCESS");
 				return ActionResult.SUCCESS;
@@ -249,6 +282,7 @@ namespace Game.AIBehaviorTree
 		{
 			Debug.LogError ("ConditionAIHasAmmo");
 			AIPlayer tinput = input as AIPlayer;
+			Debug.LogError ("ConditionAIHasAmmo"+tinput.belongGroup);
 			if ( tinput.ammoNum>0) {
 				return ActionResult.SUCCESS;
 			}else {
@@ -282,6 +316,7 @@ namespace Game.AIBehaviorTree
 		{
 			Debug.LogError ("ActionAIAddAmmo");
 			AIPlayer tinput = input as AIPlayer;
+			Debug.LogError ("ActionAIAddAmmo"+tinput.belongGroup);
 			if(Time.time - this.m_ftime > tinput.loadAmmoTime)
 				this.over = true;
 			if(this.over)
@@ -306,6 +341,7 @@ namespace Game.AIBehaviorTree
 		{
 			Debug.LogError ("ConditionAICanShoot");
 			AIPlayer tinput = input as AIPlayer;
+			Debug.LogError ("ConditionAICanShoot"+tinput.belongGroup);
 			if ( tinput.isEnemyInShootDistance()) {
 				return ActionResult.SUCCESS;
 			}else {
@@ -337,8 +373,8 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
-			Debug.LogError ("ActionAIShoot1");
-			AIPlayer tinput = input as AIPlayer;
+			AI3DPlayer tinput = input as AI3DPlayer;
+			Debug.LogError ("ActionAIShoot1"+tinput.belongGroup);
 			if(Time.time - this.m_ftime > tinput.shootSpace)
 				this.over = true;
 			if(this.over)
@@ -365,9 +401,11 @@ namespace Game.AIBehaviorTree
 		//excute
 		public override ActionResult Excute (BInput input)
 		{
-			Debug.LogError ("ActionAIPursue");
-			AIPlayer tinput = input as AIPlayer;
-			if(!tinput.isMove)
+			
+			AI3DPlayer tinput = input as AI3DPlayer;
+			Debug.LogError ("ActionAIPursue"+tinput.isReachTarget());
+			Debug.LogError ("ActionAIPursue"+tinput.belongGroup);
+			if(!tinput.isMove||tinput.isReachTarget())
 				return ActionResult.SUCCESS;
 			if (tinput.isEnemyInShootDistance()) {
 				return ActionResult.FAILURE;
@@ -395,6 +433,7 @@ namespace Game.AIBehaviorTree
 		{
 			AIPlayer tinput = input as AIPlayer;
 			Debug.LogError ("ConditionAIRandomChance");
+			Debug.LogError ("ConditionAIRandomChance"+tinput.belongGroup);
 			int value = Random.Range (0, 100);
 			if ( value>90) {
 				Debug.Log ("ConditionAIRandomChance SUCCESS");
@@ -433,6 +472,7 @@ namespace Game.AIBehaviorTree
 		{
 			Debug.LogError ("ActionAIIdle");
 			AIPlayer tinput = input as AIPlayer;
+			Debug.LogError ("ActionAIIdle"+tinput.belongGroup);
 			if(Time.time - this.m_ftime > tinput.resetTime||this.over==true)
 				this.over = true;
 			

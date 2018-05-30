@@ -185,10 +185,20 @@
 						]
 					},
 					{
-						"type":"Game.AIBehaviorTree.ActionAIDie",
-						"name":"ActionAIDie",
+
+						"type":"Game.AIBehaviorTree.BNodeSequence",
+						"name":"sequence",
 						"arg":{},
-						"child":[]
+						"child":
+						[
+							{
+								"type":"Game.AIBehaviorTree.ActionAIDie",
+								"name":"ActionAIDie",
+								"arg":{},
+								"child":[]
+							}
+						]
+
 					}	
 				]
 			}

@@ -12,11 +12,12 @@ public class AI3DPlayer : AIPlayer {
 	public string manState="";
 
 	protected int dangersHP = 100;
+	public string soldierName = "";
 	RouteManager routeManager;
 	private Animator animator;//动画组件
 	private NavMeshAgent agent;//寻路组件
     public Transform m_transform;//士兵的transform
-    private float shootTimer = 0.9f;//射击间隔时间器
+    private float shootTimer = 3.0f;//射击间隔时间器
     private LineSightV4 ThisLineSight;//视野
     public Transform muzzlePoint; // 枪口的Transform组件
     public LayerMask layer; // 射击时射线能射到的碰撞层  
@@ -25,6 +26,8 @@ public class AI3DPlayer : AIPlayer {
     Vector3 currentDestination = Vector3.zero;//士兵现在要巡逻的位置
 
 	public string routeGroup = "RouteListGroupA";
+	public  GameObject oriPosition;
+	
 
 	public RoutePoint routePoint;
 
@@ -49,6 +52,11 @@ public class AI3DPlayer : AIPlayer {
 		belongGroup = AIPlayerGroup.A;
 	}
 
+
+	public void updateView(){
+		ThisLineSight.UpdateSight();
+	}
+
 	// Update is called once per frame
 	void Update () {
 		//		if (moveTarget != null) {
@@ -64,9 +72,7 @@ public class AI3DPlayer : AIPlayer {
 			routePoint = null;
 		}
 
-//		Transform labObj = this.transform.Find ("lab_hp");
-//		labObj.GetComponent<Text> ().text = "HP:"+hp;
-
+		
 	}
 
 	void Awake()
@@ -75,16 +81,34 @@ public class AI3DPlayer : AIPlayer {
 	}
 
 	public override void Die(){
-		isDie = true;
-		this.gameObject.SetActive (false);
+		Debug.Log("siwang!!!!");
+		refreshStateLabel ("死亡");
+		isDieActionRun = true;
+		animator.SetBool("Death",true);
+		StartCoroutine (WaitDeath ());
+		
+			
 	}
 
 	public override bool IsBackHome(){
 		return false;
+
 	}
 
 	public override void MoveBackHome(){
+		refreshStateLabel ("逃跑");
 		isMoveToHome = true;
+		agent.isStopped = false;
+		agent.speed = 5.0f;
+		animator.SetBool("Run",true);
+		agent.SetDestination(oriPosition.transform.position);
+		// if (Vector3.Distance(transform.position, oriPosition.transform.position) <= 1.5f)
+  //       {
+  //           animator.SetBool("Run", false);
+  //           animator.SetBool("Idle", true);
+  //          // hp = 100；//生命重置
+  //           agent.isStopped = false;
+  //       }
 	}
 	//敌人是否在视野范围内
 	public override bool isEnemyInView(){
@@ -114,6 +138,8 @@ public class AI3DPlayer : AIPlayer {
 		refreshStateLabel ("射击");
     	if(ThisLineSight.enemyObj!=null)
         {
+        	ammoNum--;
+			refreshStateLabel ("执行射击 子弹数量:"+ammoNum);
 			Debug.LogError ("ThisLineSight.enemyObj."+ThisLineSight.enemyObj.name+" "+this.transform.name);
 			Transform realPhy = ThisLineSight.enemyObj.transform.parent.Find("EyePoint");
 			transform.LookAt(realPhy);
@@ -138,7 +164,7 @@ public class AI3DPlayer : AIPlayer {
 
 			bool hit = Physics.Raycast(origal.position, (realPhy.position-origal.position).normalized*1000  , out info, 1000, layer);
 
-			Debug.Log(info.point);
+			//Debug.Log(info.point);
 			Debug.DrawLine (origal.position,(realPhy.position-origal.position).normalized*1000 );
 
 
@@ -178,7 +204,7 @@ public class AI3DPlayer : AIPlayer {
      
         //装填子弹
     }
-        public void AddAmmo(){
+     public void AddAmmo(){
 
 		refreshStateLabel ("装填子弹");
 		StartCoroutine (WaitAndAdmmo ());
@@ -188,6 +214,13 @@ public class AI3DPlayer : AIPlayer {
 	{  
 		yield return new WaitForSeconds(loadAmmoTime);  
 		ammoNum = 5;
+	} 
+	private IEnumerator WaitDeath()  
+	{  
+		yield return new WaitForSeconds(1.0f);  
+		isDie = true;
+		isDieActionRun = false;
+		Debug.Log("siwang!!!!11111");
 	} 
 
 	public override void stopMove(){
@@ -203,6 +236,17 @@ public class AI3DPlayer : AIPlayer {
 			isMove = false;
 		}
 
+
+	}
+
+	public bool isReachTarget(){
+
+        if (agent.remainingDistance <= 1.0f)
+        {
+        	isMove = false;
+            return true;
+        }
+        return false;
 
 	}
 
@@ -223,11 +267,12 @@ public class AI3DPlayer : AIPlayer {
         	transform.LookAt(ThisLineSight.enemyObj.transform);
         }
         isMove = true;
-       
+       	currentDestination = ThisLineSight.LastKnowSighting;
         agent.SetDestination(ThisLineSight.LastKnowSighting);
-         agent.isStopped = false;
+        agent.isStopped = false;
         animator.SetBool("Run", true);
         animator.SetBool("Walk", false);
+
 
 	}
 
@@ -240,13 +285,15 @@ public class AI3DPlayer : AIPlayer {
 		agent.enabled = true;
 		agent.SetDestination(currentDestination);
 		animator.SetBool("Walk", true);
-
+		animator.SetBool("Run",false);
 
 	}
 
 	public override void rest(){
 
 		refreshStateLabel ("空闲中");
+		animator.SetBool("Idle", true);
+
 	}
 		
 	void OnTriggerEnter2D(Collider2D collider2D){
@@ -273,7 +320,21 @@ public class AI3DPlayer : AIPlayer {
 //		GameObject.Find("lab_state1").GetComponent<Text>().text = str;
 		this.manState = str;
 	}
+	public  void NameLabel()
+	{
+			Debug.Log("hahahahah!!!");
+		//Transform labObj = this.transform.Find ("lab_name");
+		//labObj.GetComponent<Text> ().text = this.soldierName;
 
+		// foreach (var child in this.gameObject.GetComponentsInChildren<Component>()) 
+		// {
+		// 	Debug.Log("hahahahah"+soldierName);
+		// 	if (child.name == "lab_name") {
+		// 		Debug.Log("hahahahah1111111"+soldierName);
+		// 		child.GetComponent<Text> ().text = soldierName;
+		// 	}
+		// }
+	}
 
 	//随机移动,按照路线巡逻
 	public override void RandomMove()
@@ -285,6 +346,7 @@ public class AI3DPlayer : AIPlayer {
 			Debug.Log ("随机移动");
 			routePoint = routeManager.getCurPoint ();
 			currentDestination = routePoint.pointPos;
+			// ThisLineSight.Sensitity = LineSight.SightSensitivity.STRICT;
 			MoveToTarget ();	
 		}
 
